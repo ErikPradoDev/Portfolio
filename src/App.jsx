@@ -1,4 +1,5 @@
 import './styles/components/app.sass'
+import './styles/components/images.css'
 import Header from './components/Header'
 import {
   createBrowserRouter,
@@ -12,6 +13,7 @@ import HomePage from './pages/HomePage'
 import ProjectsPage from './pages/ProjectsPage'
 import BlogPage from './pages/BlogPage'
 import ErrorPage from './pages/ErrorPage'
+
 
 
 

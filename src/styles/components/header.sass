@@ -1,0 +1,50 @@
+@use '../variables'
+
+header
+    background-color: variables.$primaryBG
+    position: fixed
+    width: 100%
+    z-index: 999
+    box-shadow: 0px 10px 23px 10px variables.$primaryBG
+
+    .container
+        display: flex
+        align-items: center
+        justify-content: space-between
+        padding: 20px 0px
+        font-family: variables.$font-inter-bold
+            
+        .pLogo
+            font-size: 20px
+            transition: .2s
+
+            &:hover
+                cursor: pointer
+                color: variables.$cOrange-Hover
+
+            &:hover .backHover
+                margin-left: 8px
+                visibility: visible
+
+            .backHover
+                margin-left: 1px
+                font-size: 14px
+                font-family: variables.$font-inter-medium
+                transition: .3s
+                visibility: hidden
+
+        nav
+            font-size: 15px
+
+            ul li
+                display: inline-flex
+                margin-left: 15px
+
+                &:hover
+                    cursor: pointer
+
+                &:hover .itemNav
+                    color: variables.$cOrange
+
+                .itemNav
+                    transition: .2s
