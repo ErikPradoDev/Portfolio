@@ -45,6 +45,21 @@ export default function HomePage(){
                     </Link>
                 </div>
             </section>
+
+            <section id='aboutMe'>
+            <div className="MarginAuto1100px flex">
+                    <h3>../about</h3>
+                    <h2>About me.</h2>
+                <div className='lineSection'></div>
+                    <p className='txt'> Hello, I'm Erik Prado, currently living in Brazil, and studying computer science at UNICID University. I'm planning to graduate in 2028, and I'm focused on front-end studies, with the goal of specializing in full stack. </p>
+                    <p className='txt'> My projects include UX design, responsive layouts with the focus of providing value and a unique experience for users. </p>
+                    <p className='txt'> In my free time, I like to go for runs at a local park, I'm always looking to learn more about technology, and I like to play casual games of Chess. Through <Link to='https://www.chess.com/member/lelrikpc' target='_blank'> <span className='colorOrange'>Chess.com</span></Link> we can play together. </p>
+                    <p className='txt'> My projects contain user interfaces (UI) and user experiences (UX) that are intuitive, practical and visually pleasing. </p>
+                    <p className='txt'> Prioritize clean code development. with easy maintenance, quality and sustainability in projects, with responsive applications ensuring an exceptional user experience. </p>
+               </div>
+            </section>
+
+            
         </main>
 
     )
