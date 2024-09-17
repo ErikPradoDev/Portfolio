@@ -370,62 +370,26 @@ export default function HomePage(){
                             <div className='lineBlog'>
             <Link to='/blog/creative-process-of-a-website' className='blogCard'> 
                     <div className='imgBlogSize'>
-                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="40" height="40" rx="5" fill="#1a1a1a"/>
-<path d="M8.75001 16.2502C8.74995 14.3924 9.20994 12.5636 10.0889 10.927C10.9679 9.29035 12.2385 7.89686 13.7872 6.87093C15.336 5.845 17.1147 5.21857 18.9645 5.04758C20.8143 4.87658 22.6777 5.16635 24.3883 5.89099C26.0989 6.61564 27.6034 7.75261 28.7675 9.20039C29.9315 10.6482 30.719 12.3617 31.0594 14.1879C31.3999 16.0142 31.2829 17.8964 30.7187 19.6663C30.1545 21.4363 29.1608 23.0391 27.8263 24.3314C27.4456 24.6989 27.1531 25.0814 26.9769 25.492L25.5481 28.8089C25.4756 28.977 25.3555 29.1202 25.2026 29.2209C25.0496 29.3215 24.8706 29.3751 24.6875 29.3752H15.3125C15.1291 29.3755 14.9497 29.322 14.7964 29.2214C14.6431 29.1207 14.5226 28.9773 14.45 28.8089L13.0231 25.4902C12.8173 25.0528 12.5289 24.6593 12.1738 24.3314C11.089 23.2839 10.2266 22.0283 9.63834 20.6397C9.05006 19.2512 8.74792 17.7582 8.75001 16.2502ZM14.375 32.1877C14.375 31.939 14.4738 31.7006 14.6496 31.5248C14.8254 31.3489 15.0639 31.2502 15.3125 31.2502H24.6875C24.9362 31.2502 25.1746 31.3489 25.3504 31.5248C25.5262 31.7006 25.625 31.939 25.625 32.1877C25.625 32.4363 25.5262 32.6748 25.3504 32.8506C25.1746 33.0264 24.9362 33.1252 24.6875 33.1252L24.2675 33.9633C24.1119 34.2747 23.8727 34.5366 23.5766 34.7198C23.2806 34.9029 22.9394 35 22.5913 35.0002H17.4088C17.0606 35 16.7195 34.9029 16.4234 34.7198C16.1273 34.5366 15.8881 34.2747 15.7325 33.9633L15.3125 33.1252C15.0639 33.1252 14.8254 33.0264 14.6496 32.8506C14.4738 32.6748 14.375 32.4363 14.375 32.1877Z" fill="#FFAE00"/>
-                    </svg>
-
+                        <Icon.LightbulbFill className='iconLamp' />
                     </div>
-                    <p className='titleBlog'> Creative process of a website. </p>
-                    <p className='postBlog'> Published in January 1, 2024. </p>
+                        <p className='titleBlog'> Creative process of a website. </p>
+                        <p className='postBlog'> Published in January 1, 2024. </p>
                     <div className='lineSection'></div>  
-                    <p className='aboutTxtMore'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, provident quia modi labore fugit error nostrum sint veritatis quibusdam expedita commodi nesciunt dolore suscipit cumque amet dolores! Doloremque, enim. Magni. </p>
-                    <p className='pTime'> 
-                        <svg width="18" height="18" viewBox="0 0 11 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_58_60)">
-<path d="M5.5 2.90309C5.5 2.81234 5.46378 2.72531 5.39932 2.66114C5.33485 2.59696 5.24742 2.56091 5.15625 2.56091C5.06508 2.56091 4.97765 2.59696 4.91318 2.66114C4.84872 2.72531 4.8125 2.81234 4.8125 2.90309V6.66707C4.81252 6.72738 4.82855 6.78662 4.85898 6.83878C4.8894 6.89093 4.93314 6.93416 4.98575 6.96408L7.392 8.33279C7.47096 8.37528 7.56349 8.38533 7.6498 8.3608C7.73611 8.33627 7.80936 8.27911 7.8539 8.20153C7.89843 8.12396 7.91071 8.03212 7.88812 7.94564C7.86553 7.85917 7.80986 7.78492 7.733 7.73877L5.5 6.4686V2.90309Z" fill="#F87E00"/>
-<path d="M5.5 11.4576C6.95869 11.4576 8.35764 10.8807 9.38909 9.854C10.4205 8.82726 11 7.43471 11 5.98268C11 4.53066 10.4205 3.1381 9.38909 2.11136C8.35764 1.08463 6.95869 0.507813 5.5 0.507812C4.04131 0.507813 2.64236 1.08463 1.61091 2.11136C0.579463 3.1381 0 4.53066 0 5.98268C0 7.43471 0.579463 8.82726 1.61091 9.854C2.64236 10.8807 4.04131 11.4576 5.5 11.4576ZM10.3125 5.98268C10.3125 7.2532 9.80547 8.47169 8.90295 9.37008C8.00043 10.2685 6.77635 10.7732 5.5 10.7732C4.22365 10.7732 2.99957 10.2685 2.09705 9.37008C1.19453 8.47169 0.6875 7.2532 0.6875 5.98268C0.6875 4.71216 1.19453 3.49367 2.09705 2.59528C2.99957 1.69688 4.22365 1.19217 5.5 1.19217C6.77635 1.19217 8.00043 1.69688 8.90295 2.59528C9.80547 3.49367 10.3125 4.71216 10.3125 5.98268Z" fill="#F87E00"/>
-</g>
-<defs>
-<clipPath id="clip0_58_60">
-<rect width="11" height="10.9497" fill="white" transform="translate(0 0.507812)"/>
-</clipPath>
-</defs>
-</svg>
-5 minutes reading.
-</p>
-
+                        <p className='aboutTxtBlog'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, provident quia modi labore fugit error nostrum sint veritatis quibusdam expedita commodi nesciunt dolore suscipit cumque amet dolores! Doloremque, enim. Magni. </p>
+                        <p className='pTime'> <Icon.ClockHistory className='colorOrange' /> 5 minutes reading. </p>
             </Link>
-                <div className='blogCard'>
+
+            <Link to='/blog/creative-process-of-a-website' className='blogCard'> 
                     <div className='imgBlogSize'>
-                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="40" height="40" rx="5" fill="#1a1a1a"/>
-<path d="M34.3684 18.5L21.5 5.63158C21.1053 5.23684 20.5526 5 20 5C19.4474 5 18.8947 5.23684 18.5 5.63158L15.7368 8.39474L18.9737 11.6316C19.2895 11.4737 19.6053 11.3947 20 11.3947C21.3421 11.3947 22.3684 12.4211 22.3684 13.7632C22.3684 14.1579 22.2895 14.4737 22.1316 14.7895L25.2895 17.9474C25.6053 17.7895 25.9211 17.7105 26.3158 17.7105C27.6579 17.7105 28.6842 18.7368 28.6842 20.0789C28.6842 21.4211 27.6579 22.4474 26.3158 22.4474C24.9737 22.4474 23.9474 21.4211 23.9474 20.0789C23.9474 19.6842 24.0263 19.3684 24.1842 19.0526L21.0263 15.8947C20.9474 15.8947 20.8684 15.9737 20.7895 15.9737V24.1842C21.7368 24.5 22.3684 25.3684 22.3684 26.3947C22.3684 27.7368 21.3421 28.7632 20 28.7632C18.6579 28.7632 17.6316 27.7368 17.6316 26.3947C17.6316 25.3684 18.2632 24.5 19.2105 24.1842V15.8947C18.2632 15.5789 17.6316 14.7105 17.6316 13.6842C17.6316 13.2895 17.7105 12.9737 17.8684 12.6579L14.6316 9.42105L5.63158 18.5C5.23684 18.8947 5 19.4474 5 20C5 20.5526 5.23684 21.1053 5.63158 21.5L18.5 34.3684C18.8947 34.7632 19.4474 35 20 35C20.5526 35 21.1053 34.7632 21.5 34.3684L34.3684 21.5C34.7632 21.1053 35 20.5526 35 20C35 19.4474 34.7632 18.8947 34.3684 18.5Z" fill="#F4511E"/>
-</svg>
-
-
-
+                        <Icon.PencilSquare className='iconLamp' />
                     </div>
-                    <p className='titleBlog'> How to name your commits? </p>
-                    <p className='postBlog'> Published in January 1, 2024. </p>
-                    <div className='lineSizeBlog'> </div>
-                    <p className='aboutTxtMore'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eos natus illo ipsam laudantium sit quisquam fugiat! Dolores quis, incidunt facere optio dolorum voluptas provident, fuga earum, sit eligendi saepe! </p>
-                    <p className='pTime'> 
-                        <svg width="18" height="18" viewBox="0 0 11 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_58_60)">
-<path d="M5.5 2.90309C5.5 2.81234 5.46378 2.72531 5.39932 2.66114C5.33485 2.59696 5.24742 2.56091 5.15625 2.56091C5.06508 2.56091 4.97765 2.59696 4.91318 2.66114C4.84872 2.72531 4.8125 2.81234 4.8125 2.90309V6.66707C4.81252 6.72738 4.82855 6.78662 4.85898 6.83878C4.8894 6.89093 4.93314 6.93416 4.98575 6.96408L7.392 8.33279C7.47096 8.37528 7.56349 8.38533 7.6498 8.3608C7.73611 8.33627 7.80936 8.27911 7.8539 8.20153C7.89843 8.12396 7.91071 8.03212 7.88812 7.94564C7.86553 7.85917 7.80986 7.78492 7.733 7.73877L5.5 6.4686V2.90309Z" fill="#F87E00"/>
-<path d="M5.5 11.4576C6.95869 11.4576 8.35764 10.8807 9.38909 9.854C10.4205 8.82726 11 7.43471 11 5.98268C11 4.53066 10.4205 3.1381 9.38909 2.11136C8.35764 1.08463 6.95869 0.507813 5.5 0.507812C4.04131 0.507813 2.64236 1.08463 1.61091 2.11136C0.579463 3.1381 0 4.53066 0 5.98268C0 7.43471 0.579463 8.82726 1.61091 9.854C2.64236 10.8807 4.04131 11.4576 5.5 11.4576ZM10.3125 5.98268C10.3125 7.2532 9.80547 8.47169 8.90295 9.37008C8.00043 10.2685 6.77635 10.7732 5.5 10.7732C4.22365 10.7732 2.99957 10.2685 2.09705 9.37008C1.19453 8.47169 0.6875 7.2532 0.6875 5.98268C0.6875 4.71216 1.19453 3.49367 2.09705 2.59528C2.99957 1.69688 4.22365 1.19217 5.5 1.19217C6.77635 1.19217 8.00043 1.69688 8.90295 2.59528C9.80547 3.49367 10.3125 4.71216 10.3125 5.98268Z" fill="#F87E00"/>
-</g>
-<defs>
-<clipPath id="clip0_58_60">
-<rect width="11" height="10.9497" fill="white" transform="translate(0 0.507812)"/>
-</clipPath>
-</defs>
-</svg>
-5 minutes reading.
-</p>
+                        <p className='titleBlog'> Article being written. </p>
+                        <p className='postBlog'> Published in January 1, 2024. </p>
+                    <div className='lineSection'></div>  
+                        <p className='aboutTxtBlog'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, provident quia modi labore fugit error nostrum sint veritatis quibusdam expedita commodi nesciunt dolore suscipit cumque amet dolores! Doloremque, enim. Magni. </p>
+                        <p className='pTime'> <Icon.ClockHistory className='colorOrange' /> 5 minutes reading. </p>
+            </Link>
 
-                </div>
             </div>
                 
                 
