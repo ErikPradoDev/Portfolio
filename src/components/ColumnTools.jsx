@@ -17,7 +17,7 @@ export default function ColumnTools(){
                 <div className='btnSizeLine'>  
             <Link to="https://www.linkedin.com/in/erikpradodev/" target='_blank'>     
                     <button className='btnLink'>
-                    <p className='pLinkLinkedIn'> linkedIn | </p>
+                    <p className='pLinkLinkedIn'> LinkedIn | </p>
                         <Icon.Linkedin className='iconLinkedIn' size={25} fill='#FFF'/>
                     </button>
             </Link>
