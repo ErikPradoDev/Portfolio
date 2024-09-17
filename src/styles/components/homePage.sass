@@ -54,3 +54,37 @@ section#welcome
             color: variables.$cOrange-Hover
             border: 2px solid variables.$cOrange-Hover
 
+section#numberInfo
+    display: flex
+
+    .flex
+        display: flex
+        justify-content: space-between
+        align-items: center
+
+        .numberInfoSize
+            display: flex
+            align-items: center
+            gap: 10px
+            transition: .2s
+
+            &:hover
+                cursor: pointer
+
+            &:hover .number
+                color: variables.$cOrange
+
+            &:hover .codeTxt
+                color: variables.$cOrange-Hover
+
+        .number
+            color: variables.$cWhite
+            font-family: variables.$font-inter-bold
+            font-size: 35px
+            transition: .2s
+
+        .codeTxt
+            color: variables.$cTxt
+            font-family: variables.$font-inter-regular
+            transition: .2s
+
