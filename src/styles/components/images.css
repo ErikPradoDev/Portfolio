@@ -2,3 +2,21 @@
     background-image: url(../../img//picProfile.jpg);
     background-size: cover;
 }
+
+.backgroundWindowMainPage{
+    background-image: url(../../img/mainpage-windows.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.projectWindows{
+    transition: .2s;
+}
+
+.windows:hover .projectWindows{
+    background-image: url(../../img/background-windows-desktop.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

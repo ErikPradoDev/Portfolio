@@ -5,7 +5,7 @@ import '../styles/components/footer.sass'
 export default function Footer(){
     return(
         <footer className="MarginAuto1100px flex">
-            <p> Mande with <Icon.HeartFill className="iconHeart"/> by <span>Erik Prado</span>.</p>
+            <p> Made with <Icon.HeartFill className="iconHeart"/> by <span>Erik Prado</span>.</p>
         </footer>
     )
 }
