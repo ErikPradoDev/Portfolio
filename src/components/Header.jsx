@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/components/header.sass'
+import ColumnTools from './ColumnTools';
 
 export default function Header(){
     return(
         <header> 
+            <ColumnTools />
             <div className='MarginAuto1100px container'>
                 <div>
                 <Link to='/'> <p className='pLogo'> <span className='colorOrange'>&lt;</span>Epc <span className='colorOrange'>/&gt;</span> <span className='backHover'> | Back to Home </span> </p> </Link>

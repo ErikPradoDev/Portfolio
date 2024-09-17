@@ -1,0 +1,67 @@
+@use '../variables'
+
+
+#columnToolsSize
+    height: 100vh
+    position: fixed
+    right: 30px
+    z-index: 98
+    display: flex
+    flex-direction: column
+    justify-content: center
+    gap: 25px
+
+    .btnSizeLine
+        display: flex
+        align-items: center
+
+        button
+            width: 25px
+            height: 25px
+            border: none
+            background-color: #ffffff00
+            transition: .2s
+
+            &:hover
+                cursor: pointer
+
+            &:hover .pLinkGitHub
+                visibility: visible
+                transition: .2s
+                left: -66px
+
+            &:hover .pLinkLinkedIn
+                visibility: visible
+                transition: .2s
+                left: -70px
+
+            &:hover .iconGitHub, &:hover .iconLinkedIn, &:hover .iconTranslate
+                fill: variables.$cOrange
+                transition: .2s
+
+        .iconGitHub, .iconLinkedIn, .iconTranslate
+            color: variables.$cOrange
+
+        .btnLink
+            position: relative
+        
+            .pLinkGitHub
+                position: absolute
+                font-size: 14px
+                font-family: variables.$font-inter-medium
+                left: -73px
+                top: 5px
+                transition: .2s
+                visibility: hidden
+
+            .pLinkLinkedIn
+                position: absolute
+                font-size: 14px
+                font-family: variables.$font-inter-medium
+                left: -77px
+                top: 5px
+                transition: .2s
+                visibility: hidden
+
+            
+                    
