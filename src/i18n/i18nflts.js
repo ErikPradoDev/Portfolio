@@ -20,8 +20,8 @@ i18n
   .use(initReactI18next) 
   .init({
     resources,
-    lng: "en", // idioma padrão
-    fallbackLng: "en", // Idioma de fallback, caso o idioma padrão não estar disponível.
+    lng: "pt", // idioma padrão
+    fallbackLng: "pt", // Idioma de fallback, caso o idioma padrão não estar disponível.
 
     interpolation: {
       escapeValue: false

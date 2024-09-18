@@ -13,6 +13,7 @@ export default function WindowsPage(){
         <>
         <main>
             <section id="articleWindows" className="MarginAuto1100px">
+                <nav> <Link to={"/"} className="colorTxt"> Home </Link> / <Link to={"/projects"} className="colorTxt"> Projects </Link> / <Link to={"/projects/windows-desktop-erik-prado"} className="colorOrange" > Windows Desktop </Link></nav>
                 <div className='titleSize'>
                     <div className='logoProjectCard'>
                         <svg width="70" height="70" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -1,18 +1,93 @@
 @use '../variables'
     
+
+section#contact
+    background-color: #14131b
+    padding: 80px 0px
+    width: 100%
+    
+    .formSize
+        margin-top: 20px
+        border-radius: 5px
+        transition: .2s
+
+
+        form
+            width: 100%
+
+        label
+            font-family: variables.$font-inter-medium
+            font-size: 16px
+            display: block
+            width: 100%
+
+        textarea
+            height: 120px
+            resize: vertical
+
+        .inputTxt, textarea
+            border: 2px solid variables.$cBorder
+            background-color: variables.$primaryBG
+            border-radius: 5px
+            padding: 10px
+            font-size: 16px
+            font-family: variables.$font-inter-regular
+            margin-top: 10px
+            margin-bottom: 20px
+            outline: none
+            transition: .2s
+            color: variables.$cTxt
+            display: block
+            width: 100%
+
+            &:hover
+                cursor: pointer
+                border: 2px solid variables.$cBorder-Hover
+                background-color: #212025
+
+            &:focus
+                border-bottom: 2px solid variables.$cOrange
+                border-top: 2px solid variables.$cBorder-Hover
+                border-left: 2px solid variables.$cBorder-Hover
+                border-right: 2px solid variables.$cBorder-Hover
+                color: variables.$cWhite
+
+        .inputBtn
+            background-color: variables.$cOrange
+            border: 2px solid variables.$cOrange
+            border-radius: 5px
+            padding: 8px 10px
+            font-family: variables.$font-inter-bold
+            font-size: 14px
+            color: variables.$primaryCHover
+            display: flex
+            align-items: center
+            gap: 8px
+            transition: .2s
+
+            &:hover
+                cursor: pointer
+                background-color: variables.$cOrange-Hover
+                border: 2px solid variables.$cOrange-Hover
+
 footer
-    text-align: center
+    background-color: #14131b
     padding: 40px 0px
     font-family: variables.$font-inter-regular
 
     p
         color: variables.$cTxt
         font-size: 16px
+        display: flex
+        align-items: center
+        justify-content: center
 
         span
             color: variables.$cWhite
             font-family: variables.$font-inter-medium
             font-size: 16px
+            margin-left: 5px
 
     .iconHeart
         fill: variables.$cOrange
+        margin: 0px 5px

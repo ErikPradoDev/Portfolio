@@ -10,6 +10,13 @@
     background-repeat: no-repeat;
 }
 
+.backgroundCircut{
+    background-image: url(../../img/circut.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .backgroundWindowDesktop{
     background-image: url(../../img/background-windows-desktop.png);
     background-size: cover;

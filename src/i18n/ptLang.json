@@ -1,4 +1,10 @@
-{
+{"sectionWelcome":{
+        "pHi": "Olá, eu sou",
+        "pFront": "Desenvolvedor Web Front-End",
+        "p1": "Olá, sou Erik Prado, atualmente moro no Brasil e estudo ciência da computação na Universidade UNICID. Pretendo me formar em 2028, e estou focado em estudos front-end, com objetivo de me especializar em full stack.",
+        "p2": "Priorizo ​​o desenvolvimento de código limpo, com fácil manutenção, qualidade e sustentabilidade nos projetos, com aplicações responsivas garantindo uma experiência de usuário excepcional.",
+        "contact": "Contato"
+    },
     "sectionInfoNumber":{
         "commitp1": "Commits de",
         "commitp2": "códigos",
@@ -19,16 +25,23 @@
     },
     "sectionProject":{
         "subtitle": "../projetos",
-        "title": "Projetos em destaque."
+        "title": "Projetos em destaque.",
+        "new" :"Novo Projeto",
+        "tech" : "Tecnologias usadas:"
     },
     "sectionContact":{
         "subtitle": "../contato",
-        "title": "Contato."
+        "title": "Contato.",
+        "p1": "Sinta-se à vontade para entrar em contato comigo, discutir colaboração em um projeto ou simplesmente dizer 'oi'. Você pode me enviar um e-mail para",
+        "p2": "Nome completo:",
+        "p3": "Endereço de e-mail:",
+        "p4": "Mensagem:"
     },
     "pageProjectWindows":{
         "verson": "Versão",
         "LinkGitHub": "Página do Projeto GitHub:",
         "LinkLinkedIn": "Página da Publicação do LinkedIn:",
+        "pResume": "“Windows Desktop | Erik Prado” tem como objetivo principal de trazer a imersão ao ligar meu computador desktop, possuindo tela de bloqueio, área de trabalho, menu iniciar com opção de abrir e fechar, e ícones na área de trabalho que simbolizam atalhos para diversos links de sites.",
         "p1": "Olá Devs, esse projeto é muito importante para mim, e convido cada um de vocês a pegar uma xícara de café e entender o seu significado.",
         "p2": "Desde o início do meu desenvolvimento como programador front-end web sempre fiquei integrado com as milhares de páginas web que podemos criar. Desde um e-commerce, uma rede social, um blog ou até mesmo projetos que são réplicas de softwares.",
         "p3": "Lembro dos meus primeiros desenvolvimentos web, utilizando apenas o HTML e CSS puro desenvolvi réplicas dos sites da Nike, McDonalds e Starbucks.",

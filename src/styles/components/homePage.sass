@@ -13,14 +13,35 @@ h3
 
 
 section#welcome
-    padding-top: 150px
-    padding-bottom: 80px
+    padding-top: 180px
+    padding-bottom: 150px
     width: 100%
+    background-color: #14131b
+
+    .containerWelcome
+        display: flex
+
+    .sizeTxt
+        width: 50%
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+    
+    .sizeImg
+        width: 50%
+        display: flex
+        align-items: center
+        justify-content: end
+
+        .img
+            width: 300px
+            height: 300px
+            border-radius: 5px
+            background-color: #6b6b6b
 
     .flex
         display: flex
         justify-content: center
-        align-items: center
         flex-direction: column
 
     .photoSize
@@ -30,9 +51,10 @@ section#welcome
         margin: 0 auto
 
     .pHi
-        font-family: variables.$font-inter-regular
+        font-family: variables.$font-inter-medium
         font-size: 25px
-        margin: 5px 0px
+        margin-top: 10px
+        margin-bottom: 10px
 
         span
             color: variables.$cOrange
@@ -41,31 +63,17 @@ section#welcome
     .p2
         font-size: 20px
         font-family: variables.$font-inter-regular
-        margin-bottom: 5px
-    
-    .p3
-        font-size: 14px
-        font-family: variables.$font-inter-regular
-        margin: 10px 0px
-        color: variables.$cTxt
+        margin-bottom: 10px
 
-    button
-        margin: 10px 0px
-        border: none
-        color: variables.$cOrange
-        border: 2px solid variables.$cOrange
-        border-radius: 5px
-        padding: 8px 10px
-        font-family: variables.$font-inter-regular
-        transition: .2s
-        background-color: #ffffff00
+    .lineBtn
+        margin-top: 10px
 
-        &:hover
-            cursor: pointer
-            color: variables.$cOrange-Hover
-            border: 2px solid variables.$cOrange-Hover
+.iconMail
+    fill: variables.$primaryCHover
+    font-size: 20px
 
 section#numberInfo
+    margin-top: 50px
     display: flex
 
     .flex
@@ -105,8 +113,8 @@ section#numberInfo
     background-color: variables.$cBorder
     margin: 20px 0px
 
-section#aboutMe, section#tech, section#blog, section#projects, section#contact
-    margin: 150px 0px
+section#tech, section#blog, section#projects, section#contact
+    margin-top: 150px
 
     .cardIconSize
         background-color: variables.$primaryCHover
@@ -155,7 +163,6 @@ section#blog
     .lineBlog
         display: flex
         gap: 40px
-        margin: 20px 0px
         flex-wrap: wrap
         justify-content: space-between
 
@@ -316,33 +323,5 @@ section#projects
             font-size: 50px
 
 
-.lineBtn
-    display: flex
-    gap: 20px
-
-    button
-        background-color: variables.$primaryBG
-        border: 2px solid variables.$cOrange
-        border-radius: 5px
-        padding: 8px 10px
-        font-family: variables.$font-inter-medium
-        font-size: 14px
-        color: variables.$cOrange
-        display: flex
-        align-items: center
-        gap: 8px
-        transition: .2s
-
-        &:hover
-            cursor: pointer
-            background-color: variables.$cOrange
-            color: variables.$primaryBG
-
-        &:hover .iconBtn
-            fill: variables.$primaryBG
-        .iconBtn
-            fill: variables.$cOrange
-            font-size: 20px
-            transition: .2s
-
+            
                     

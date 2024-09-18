@@ -7,7 +7,7 @@ export default function Header(){
     return(
         <header> 
             <ColumnTools />
-            <div className='MarginAuto1100px container'>
+            <div className='MarginAuto1000px container'>
                 <div>
                 <Link to='/'> <p className='pLogo'> <span className='colorOrange'>&lt;</span>Epc <span className='colorOrange'>/&gt;</span> <span className='backHover'> | Back to Home </span> </p> </Link>
                 </div>

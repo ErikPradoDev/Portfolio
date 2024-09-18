@@ -20,6 +20,14 @@ body
     margin-bottom: 10px
     text-align: justify
 
+.colorTxt
+    fill: variables.$cTxt
+    color: variables.$cTxt
+    transition: .2s
+
+    &:hover
+        color: variables.$cWhite
+
 .colorOrange
     fill: variables.$cOrange
     transition: .2s
@@ -30,6 +38,14 @@ body
 .marginBottom20px
     margin-bottom: 20px
 
+.MarginAuto900px
+    width: 950px
+    margin: 0 auto
+
+.MarginAuto1000px
+    width: 1100px
+    margin: 0 auto
+
 .MarginAuto1100px
     width: 1000px
     margin: 0 auto
@@ -39,6 +55,8 @@ body
 
 .colorOrange
     color: variables.$cOrange
+
+
 
 ::-webkit-scrollbar 
     width: 5px
@@ -52,3 +70,55 @@ body
     fill: #FFAE00
     width: 25px
     height: 25px
+
+
+.lineBtn
+    display: flex
+    gap: 20px
+
+    .btnFill
+        background-color: variables.$cOrange
+        border: 2px solid variables.$cOrange
+        border-radius: 5px
+        padding: 8px 10px
+        font-family: variables.$font-inter-bold
+        font-size: 14px
+        color: variables.$primaryCHover
+        display: flex
+        align-items: center
+        gap: 8px
+        transition: .2s
+
+        &:hover
+            cursor: pointer
+            background-color: variables.$cOrange-Hover
+            border: 2px solid variables.$cOrange-Hover
+
+        .iconBtn
+            fill: variables.$primaryCHover
+            font-size: 20px
+            transition: .2s
+
+    .btnSimple
+        background-color: variables.$primaryCHover
+        border: none
+        font-size: 14px
+        font-family: variables.$font-inter-medium
+        color: variables.$cOrange
+        padding: 8px 0px
+        display: flex
+        align-items: center
+        gap: 8px
+        transition: .2s
+        
+        &:hover
+            cursor: pointer
+            color: variables.$cOrange-Hover
+
+            .iconBtn
+                fill: variables.$cOrange-Hover
+
+        .iconBtn
+            fill: variables.$cOrange
+            font-size: 20px
+            transition: .2s

@@ -11,13 +11,26 @@ export default function HomePage(){
     const { t, i18n } = useTranslation();
     return(
         <main>
-            <section id='welcome' className='bgDecoration'>
-                <div className='MarginAuto1100px flex'>
-                    <div className='photoSize photoProfile'></div>
-                    <p className='pHi'> Hi, i'm <span> Erik Prado </span ></p>
-                    <p className='p2'> Front-End Web Developer</p>
-                    <p className='p3'> Constantly learning about technologies. Chess player and passionate about reading. </p>
-                    <button> DOWNLOAD CV </button>
+            <section id='welcome'>
+                <div className='MarginAuto1100px containerWelcome'>
+                    <div className='sizeTxt'>
+                        <p className='pHi'> {t('sectionWelcome.pHi')} <span> Erik Prado </span ></p>
+                        <p className='p2'> {t('sectionWelcome.pFront')}</p>
+                        <div>
+                            <p className='txt'> {t('sectionWelcome.p1')} </p>
+                            <p className='txt'> {t('sectionWelcome.p2')} </p>
+                        </div>
+                        <div className='lineBtn'>
+                            <a href='#contact'>
+                            <button className='btnFill'> <Icon.EnvelopeAtFill className='iconMail' /> {t('sectionWelcome.contact')}  </button>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div className='sizeImg'>
+                        <div className="img"></div>
+                    </div>
+                    
                 </div>
             </section>
 
@@ -50,28 +63,13 @@ export default function HomePage(){
                 </div>
             </section>
 
-            <section id='aboutMe'>
-            <div className="MarginAuto1100px flex">
-                    <h3>{t('sectionAbout.subtitle')}</h3>
-                    <h2>{t('sectionAbout.title')}</h2>
-                <div className='lineSection'></div>
-                    <p className='txt'> Hello, I'm Erik Prado, currently living in Brazil, and studying computer science at UNICID University. I'm planning to graduate in 2028, and I'm focused on front-end studies, with the goal of specializing in full stack. </p>
-                    <p className='txt'> My projects include UX design, responsive layouts with the focus of providing value and a unique experience for users. </p>
-                    <p className='txt'> In my free time, I like to go for runs at a local park, I'm always looking to learn more about technology, and I like to play casual games of Chess. Through <Link to='https://www.chess.com/member/lelrikpc' target='_blank'> <span className='colorOrange'>Chess.com</span></Link> we can play together. </p>
-                    <p className='txt'> My projects contain user interfaces (UI) and user experiences (UX) that are intuitive, practical and visually pleasing. </p>
-                    <p className='txt'> Prioritize clean code development. with easy maintenance, quality and sustainability in projects, with responsive applications ensuring an exceptional user experience. </p>
-               </div>
-            </section>
-
             <section id='tech'>
                 <div className="MarginAuto1100px flex">
                         <h3> {t('sectionTech.subtitle')} </h3>
                         <h2> {t('sectionTech.title')} </h2>
                         <div className='lineSection'></div>
 
-                        <p className='txt'> All the technologies and tools that I use in my projects. </p>
-
-                        <div className='scroll'>
+                        <div className='scroll MarginAuto900px'>
                                 <div>
                                     <span className='cardIconSize'>
                                         <svg width="19" height="19" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -369,8 +367,7 @@ export default function HomePage(){
                             <h3>../blog</h3>
                             <h2>Blog.</h2>
                             <div className='lineSection'></div>
-                            <p className='txt'> Grab a cup of coffee, sit back and feel free to read my articles.</p>
-                            <div className='lineBlog'>
+                            <div className='lineBlog MarginAuto900px'>
             <Link to='/blog/creative-process-of-a-website' className='blogCard'> 
                     <div className='imgBlogSize'>
                         <Icon.LightbulbFill className='iconLamp' />
@@ -380,7 +377,7 @@ export default function HomePage(){
                     <div className='lineSection'></div>  
                         <p className='aboutTxtBlog'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, provident quia modi labore fugit error nostrum sint veritatis quibusdam expedita commodi nesciunt dolore suscipit cumque amet dolores! Doloremque, enim. Magni. </p>
                         <div className='lineBtn'>
-                                <button> Read More </button>
+                                <button className='btnSimple'> Read More </button>
                          </div>
             </Link>
 
@@ -393,7 +390,7 @@ export default function HomePage(){
                     <div className='lineSection'></div>  
                         <p className='aboutTxtBlog'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, provident quia modi labore fugit error nostrum sint veritatis quibusdam expedita commodi nesciunt dolore suscipit cumque amet dolores! Doloremque, enim. Magni. </p>
                         <div className='lineBtn'>
-                                <button> Read More </button>
+                                <button className='btnSimple'> Read More </button>
                          </div>
             </Link>
 
@@ -408,12 +405,12 @@ export default function HomePage(){
                             <h3> {t('sectionProject.subtitle')} </h3>
                             <h2> {t('sectionProject.title')} </h2>
                             <div className='lineSection'></div>
-                            <p className='txt'> Stay updated on all my developed projects.. </p>
                 
+                <div className='MarginAuto900px'>
                 <Link to={'/projects/windows-desktop-erik-prado'}>
                     <div className='cardProject windows marginBottom20px'>
                         <div className='cardPhoto projectWindows backgroundWindowMainPage'>
-                            <div className='txtNew'> <p> <Icon.BookmarkStarFill />  New Project </p></div>
+                            <div className='txtNew'> <p> <Icon.BookmarkStarFill />  {t('sectionProject.new')} </p></div>
                         </div>
                         <div className='txtProject'>
                             <div className='titleSize'>
@@ -448,11 +445,11 @@ export default function HomePage(){
                                 <p> Windows Desktop | Erik Prado </p>
                             </div>
 
-                            <p className='aboutTxt'> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis nulla ratione ex qui, laboriosam cumque nemo quasi officiis quae, nam natus vel quas, dolorum reprehenderit pariatur perspiciatis necessitatibus officia. Nihil! </p>
+                            <p className='aboutTxt'> {t('pageProjectWindows.pResume')} </p>
                         
                             <div>
-                                <p className='techUsed'> Technologies used: </p>
-                                <div className="lineTech">
+                                <p className='techUsed'> {t('sectionProject.tech')} </p>
+                                <div className="lineTech ">
                                     <div className='cardTech'> <p> #JavaScript </p></div>
                                     <div className='cardTech'> <p> #Sass </p></div>
                                     <div className='cardTech'> <p> #Vite </p></div>
@@ -462,8 +459,8 @@ export default function HomePage(){
                             </div>
 
                             <div className='lineBtn'>
-                                <button> <Icon.Github className='iconBtn' /> GitHub </button>
-                                <button> <Icon.BoxArrowInUpRight className='iconBtn'/> Deploy </button>
+                                <button className='btnFill'> <Icon.Github className='iconBtn' /> GitHub </button>
+                                <button className='btnSimple'> <Icon.BoxArrowInUpRight className='iconBtn'/> Deploy </button>
                             </div>
                         </div>
 
@@ -486,7 +483,7 @@ export default function HomePage(){
                             <p className='aboutTxt'> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis nulla ratione ex qui, laboriosam cumque nemo quasi officiis quae, nam natus vel quas, dolorum reprehenderit pariatur perspiciatis necessitatibus officia. Nihil! </p>
                         
                             <div>
-                                <p className='techUsed'> Technologies used: </p>
+                                <p className='techUsed'> {t('sectionProject.new')} </p>
                                 <div className="lineTech">
                                     <div className='cardTech'> <p> #JavaScript </p></div>
                                     <div className='cardTech'> <p> #Sass </p></div>
@@ -497,27 +494,20 @@ export default function HomePage(){
                             </div>
 
                             <div className='lineBtn'>
-                                <button> <Icon.Github className='iconBtn' /> GitHub </button>
-                                <button> <Icon.BoxArrowInUpRight className='iconBtn'/> Deploy </button>
+                                <button className='btnFill'> <Icon.Github className='iconBtn' /> GitHub </button>
+                                <button className='btnSimple'> <Icon.BoxArrowInUpRight className='iconBtn'/> Deploy </button>
                             </div>
                         </div>
 
                         
                     </div>
+                </div>
+
 
 
                 </div>
             </section>
 
-            <section id='contact'>
-                <div className="MarginAuto1100px flex">
-                        <h3> {t('sectionContact.subtitle')} </h3>
-                        <h2> {t('sectionContact.title')} </h2>
-                            <div className='lineSection'></div>
-                            <p className='txt'> Want to connect? Don't hesitate and let's talk! You can email me at <Link to='mailto:erikpcdev@gmail.com'> <span className='colorOrange'>erikpcdev@gmail.com</span></Link>. </p>
-
-                </div>
-            </section>
         </main>
 
     )

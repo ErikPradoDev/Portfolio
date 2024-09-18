@@ -1,11 +1,10 @@
 @use '../variables'
 
 header
-    background-color: variables.$primaryBG
     position: fixed
+    background-color: variables.$primaryCHover
     width: 100%
     z-index: 999
-    box-shadow: 0px 10px 23px 10px variables.$primaryBG
 
     .container
         display: flex
@@ -15,7 +14,7 @@ header
         font-family: variables.$font-inter-bold
             
         .pLogo
-            font-size: 20px
+            font-size: 25px
             transition: .2s
 
             &:hover
@@ -28,7 +27,7 @@ header
 
             .backHover
                 margin-left: 1px
-                font-size: 14px
+                font-size: 15px
                 font-family: variables.$font-inter-medium
                 transition: .4s
                 visibility: hidden
@@ -37,9 +36,12 @@ header
         nav
             font-size: 15px
 
+            .colorOrange
+                margin-right: 3px
+
             ul li
                 display: inline-flex
-                margin-left: 15px
+                margin-left: 25px
 
                 &:hover
                     cursor: pointer
