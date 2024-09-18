@@ -158,6 +158,9 @@ section#blog
         margin: 20px 0px
         flex-wrap: wrap
         justify-content: space-between
+
+    .lineBtn
+        margin-top: 10px
         
     
     .blogCard
@@ -318,13 +321,13 @@ section#projects
     gap: 20px
 
     button
-        background-color: variables.$cOrange
-        border: none
+        background-color: variables.$primaryBG
+        border: 2px solid variables.$cOrange
         border-radius: 5px
         padding: 8px 10px
-        font-family: variables.$font-inter-bold
+        font-family: variables.$font-inter-medium
         font-size: 14px
-        color: variables.$primaryBG
+        color: variables.$cOrange
         display: flex
         align-items: center
         gap: 8px
@@ -332,10 +335,13 @@ section#projects
 
         &:hover
             cursor: pointer
-            background-color: variables.$cOrange-Hover
+            background-color: variables.$cOrange
+            color: variables.$primaryBG
 
-        .iconBtn
+        &:hover .iconBtn
             fill: variables.$primaryBG
+        .iconBtn
+            fill: variables.$cOrange
             font-size: 20px
             transition: .2s
 

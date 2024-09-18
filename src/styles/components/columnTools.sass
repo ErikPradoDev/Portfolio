@@ -33,7 +33,13 @@
             &:hover .pLinkLinkedIn
                 visibility: visible
                 transition: .2s
-                left: -70px
+                left: -76px
+
+            &:hover .pLinkLang
+                visibility: visible
+                left: -83px
+                transition: .2s
+
 
             &:hover .iconGitHub, &:hover .iconLinkedIn, &:hover .iconTranslate
                 fill: variables.$cOrange
@@ -51,17 +57,40 @@
                 font-family: variables.$font-inter-medium
                 left: -73px
                 top: 5px
-                transition: .2s
+                transition: .3s
                 visibility: hidden
+
 
             .pLinkLinkedIn
                 position: absolute
                 font-size: 14px
                 font-family: variables.$font-inter-medium
-                left: -77px
+                left: -83px
                 top: 5px
-                transition: .2s
+                transition: .3s
                 visibility: hidden
+
+
+            .pLinkLang
+                position: absolute
+                font-size: 14px
+                left: -89px
+                font-family: variables.$font-inter-medium
+                transition: .3s
+                visibility: hidden
+
+                .btnLang
+                    font-size: 14px
+                    font-family: variables.$font-inter-medium
+                    color: variables.$cWhite
+                    transition: .3s
+
+                    &:hover
+                        color: variables.$cOrange
+                        cursor: pointer
+                        transition: .3s
+
+
 
             
                     

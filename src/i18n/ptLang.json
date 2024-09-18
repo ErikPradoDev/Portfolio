@@ -1,0 +1,52 @@
+{
+    "sectionInfoNumber":{
+        "commitp1": "Commits de",
+        "commitp2": "códigos",
+        "projectsp1": "Projetos",
+        "projectsp2": "completos",
+        "techp1": "Tecnologias",
+        "techp2": "dominadas",
+        "articlesp1": "Artigos",
+        "articlesp2": "escritos"
+    },
+    "sectionAbout": {
+        "subtitle": "../sobre",
+        "title": "Sobre mim."
+    },
+    "sectionTech":{
+        "subtitle": "../tecnologias",
+        "title": "Tecnologias."
+    },
+    "sectionProject":{
+        "subtitle": "../projetos",
+        "title": "Projetos em destaque."
+    },
+    "sectionContact":{
+        "subtitle": "../contato",
+        "title": "Contato."
+    },
+    "pageProjectWindows":{
+        "verson": "Versão",
+        "LinkGitHub": "Página do Projeto GitHub:",
+        "LinkLinkedIn": "Página da Publicação do LinkedIn:",
+        "p1": "Olá Devs, esse projeto é muito importante para mim, e convido cada um de vocês a pegar uma xícara de café e entender o seu significado.",
+        "p2": "Desde o início do meu desenvolvimento como programador front-end web sempre fiquei integrado com as milhares de páginas web que podemos criar. Desde um e-commerce, uma rede social, um blog ou até mesmo projetos que são réplicas de softwares.",
+        "p3": "Lembro dos meus primeiros desenvolvimentos web, utilizando apenas o HTML e CSS puro desenvolvi réplicas dos sites da Nike, McDonalds e Starbucks.",
+        "p4": "Vale a pena ressaltar que no início não sabia a importância das tags semânticas, e nem sabia da existência dos layoults responsivos. ",
+        "p5": "Conforme o tempo passa meu interesse foi crescendo cada vez mais. Dias e noites de estudos aprimorando todos os meus conhecimentos e práticas. Até no dia que iniciei meus estudos sobre React, isso me remeteu o início de tudo, quando achava incrível a infinita possibilidade de criar diversos documentos web.",
+        "p6": "Então surgiu o “Windows Desktop | Erik Prado”, um projeto que tem como objetivo principal de trazer a imersão ao ligar meu computador desktop, possuindo tela de bloqueio, área de trabalho, menu iniciar com opção de abrir e fechar, e ícones na área de trabalho que simbolizam atalhos para diversos links de sites.",
+        "p7": "Para esse projeto utilizei o React-Router-Dom para possibilitar a navegação entre páginas. Contendo 3 principais rotas:",
+        "p8": "- Tela de Bloqueio:",
+        "p9": "(Sendo a primeira tela de visualização de todo o projeto, essa tela simula a tela de bloqueio do Windows, contendo o horário atual, icones e foto de perfil, ao clicar nessa tela irá mudar para a tela de login do Windows).",
+        "p10": "- Desktop: ",
+        "p11": "(Sendo a segunda tela de visualização simulando a tela da área de trabalho do Windows, contendo a área de trabalho com seus respectivos ícones e atalhos, a barra de tarefas e o menu iniciar).",
+        "p12": "- Página de Erro:",
+        "p13": "(Como a página de erro simula o famoso erro de tela azul do Windows, essa tela só pode ser visualizada caso o link da página tenha algum caractere errado, com opção de retornar para a tela de bloqueio ou para o trabalho).",
+        "p14": "A fonte usada neste projeto é gratuita, chamada “Segoe Ui Variable Font”, ela tem características simples e minimalistas com um toque de modernidade.",
+        "p15": "A imagem usada na tela de bloqueio é gratuita e foi disponibilizada pelo site FreePink.",
+        "p16": "Vale ressaltar que esse projeto está em sua versão inicial, quero adicionar mais elementos para proporcionar uma imersão maior, como ferramentas e possibilidade de personalização.",
+        "p17": "Para se manter sempre atualizado desse projeto e dos demais veja sempre o meu LinkedIn, sempre posto todas as novidades por lá."
+    }
+}
+
+

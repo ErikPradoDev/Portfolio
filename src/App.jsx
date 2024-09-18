@@ -14,6 +14,7 @@ import HomePage from './pages/HomePage'
 import ProjectsPage from './pages/ProjectsPage'
 import BlogPage from './pages/BlogPage'
 import ErrorPage from './pages/ErrorPage'
+import WindowsPage from './pages/articles/windowsPage';
 
 
 
@@ -56,6 +57,16 @@ const router = createBrowserRouter([
     {
       path: "/projects",
       element: <ProjectsPage />,
+    },
+  ]
+  },
+  {
+    path: "/projects/windows-desktop-erik-prado",
+    element: <Dashboard />,
+    children: [
+    {
+      path: "/projects/windows-desktop-erik-prado",
+      element: <WindowsPage />,
     },
   ]
   },

@@ -1,11 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import * as Icon from 'react-bootstrap-icons';
+import '../i18n/i18nflts'
+import { useTranslation } from 'react-i18next'
 
 import '../styles/components/homePage.sass';
 
 
 export default function HomePage(){
+    const { t, i18n } = useTranslation();
     return(
         <main>
             <section id='welcome' className='bgDecoration'>
@@ -23,25 +26,25 @@ export default function HomePage(){
                     <Link to="https://github.com/ErikPradoDev" target='_blank'>
                         <div className='numberInfoSize'>
                             <p className='number'>+50</p>
-                            <p className='codeTxt'> Code <br /> commits </p>
+                            <p className='codeTxt'> {t('sectionInfoNumber.commitp1')} <br /> {t('sectionInfoNumber.commitp2')} </p>
                         </div>
                     </Link>
                     <Link to='/projects'>
                         <div className='numberInfoSize'>
                             <p className='number'>02</p>
-                            <p className='codeTxt'> Projects <br /> completed </p>
+                            <p className='codeTxt'> {t('sectionInfoNumber.projectsp1')} <br /> {t('sectionInfoNumber.projectsp2')} </p>
                         </div>
                     </Link>
                     <Link to=''>
                         <div className='numberInfoSize'>
                             <p className='number'>08</p>
-                            <p className='codeTxt'> Techonologies <br /> mastered </p>
+                            <p className='codeTxt'> {t('sectionInfoNumber.techp1')} <br /> {t('sectionInfoNumber.techp2')} </p>
                         </div>
                     </Link>
                     <Link to='/blog'>
                         <div className='numberInfoSize'>
                             <p className='number'>04</p>
-                            <p className='codeTxt'> Wriiten <br /> articles </p>
+                            <p className='codeTxt'> {t('sectionInfoNumber.articlesp1')} <br /> {t('sectionInfoNumber.articlesp2')} </p>
                         </div>
                     </Link>
                 </div>
@@ -49,8 +52,8 @@ export default function HomePage(){
 
             <section id='aboutMe'>
             <div className="MarginAuto1100px flex">
-                    <h3>../about</h3>
-                    <h2>About me.</h2>
+                    <h3>{t('sectionAbout.subtitle')}</h3>
+                    <h2>{t('sectionAbout.title')}</h2>
                 <div className='lineSection'></div>
                     <p className='txt'> Hello, I'm Erik Prado, currently living in Brazil, and studying computer science at UNICID University. I'm planning to graduate in 2028, and I'm focused on front-end studies, with the goal of specializing in full stack. </p>
                     <p className='txt'> My projects include UX design, responsive layouts with the focus of providing value and a unique experience for users. </p>
@@ -62,8 +65,8 @@ export default function HomePage(){
 
             <section id='tech'>
                 <div className="MarginAuto1100px flex">
-                        <h3>../tech</h3>
-                        <h2>Technologies.</h2>
+                        <h3> {t('sectionTech.subtitle')} </h3>
+                        <h2> {t('sectionTech.title')} </h2>
                         <div className='lineSection'></div>
 
                         <p className='txt'> All the technologies and tools that I use in my projects. </p>
@@ -376,7 +379,9 @@ export default function HomePage(){
                         <p className='postBlog'> Published in January 1, 2024. </p>
                     <div className='lineSection'></div>  
                         <p className='aboutTxtBlog'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, provident quia modi labore fugit error nostrum sint veritatis quibusdam expedita commodi nesciunt dolore suscipit cumque amet dolores! Doloremque, enim. Magni. </p>
-                        <p className='pTime'> <Icon.ClockHistory className='colorOrange' /> 5 minutes reading. </p>
+                        <div className='lineBtn'>
+                                <button> Read More </button>
+                         </div>
             </Link>
 
             <Link to='/blog/creative-process-of-a-website' className='blogCard'> 
@@ -387,7 +392,9 @@ export default function HomePage(){
                         <p className='postBlog'> Published in January 1, 2024. </p>
                     <div className='lineSection'></div>  
                         <p className='aboutTxtBlog'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, provident quia modi labore fugit error nostrum sint veritatis quibusdam expedita commodi nesciunt dolore suscipit cumque amet dolores! Doloremque, enim. Magni. </p>
-                        <p className='pTime'> <Icon.ClockHistory className='colorOrange' /> 5 minutes reading. </p>
+                        <div className='lineBtn'>
+                                <button> Read More </button>
+                         </div>
             </Link>
 
             </div>
@@ -398,11 +405,12 @@ export default function HomePage(){
 
             <section id='projects'>
                 <div className="MarginAuto1100px flex">
-                            <h3>../projects</h3>
-                            <h2>Featured Projects.</h2>
+                            <h3> {t('sectionProject.subtitle')} </h3>
+                            <h2> {t('sectionProject.title')} </h2>
                             <div className='lineSection'></div>
                             <p className='txt'> Stay updated on all my developed projects.. </p>
                 
+                <Link to={'/projects/windows-desktop-erik-prado'}>
                     <div className='cardProject windows marginBottom20px'>
                         <div className='cardPhoto projectWindows backgroundWindowMainPage'>
                             <div className='txtNew'> <p> <Icon.BookmarkStarFill />  New Project </p></div>
@@ -461,8 +469,9 @@ export default function HomePage(){
 
                         
                     </div>
+                </Link>
 
-                    <div className='cardProject windows'>
+                    <div className='cardProject'>
                         <div className='cardPhoto dev'> 
                             <Icon.Tools />
                         </div>
@@ -502,10 +511,10 @@ export default function HomePage(){
 
             <section id='contact'>
                 <div className="MarginAuto1100px flex">
-                            <h3>../contact</h3>
-                            <h2>Contact.</h2>
+                        <h3> {t('sectionContact.subtitle')} </h3>
+                        <h2> {t('sectionContact.title')} </h2>
                             <div className='lineSection'></div>
-                            <p className='txt'> Feel free to contact me, discuss a project collaboration or just say "hi".</p>
+                            <p className='txt'> Want to connect? Don't hesitate and let's talk! You can email me at <Link to='mailto:erikpcdev@gmail.com'> <span className='colorOrange'>erikpcdev@gmail.com</span></Link>. </p>
 
                 </div>
             </section>

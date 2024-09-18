@@ -10,12 +10,33 @@
     background-repeat: no-repeat;
 }
 
+.backgroundWindowDesktop{
+    background-image: url(../../img/background-windows-desktop.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.backgroundLockScreen{
+    background-image: url(../../img/mainpage-windows.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .projectWindows{
     transition: .2s;
 }
 
 .windows:hover .projectWindows{
     background-image: url(../../img/background-windows-desktop.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.backgroundErrorPage{
+    background-image: url(../../img/errorPage-Blue.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

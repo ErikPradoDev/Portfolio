@@ -4,7 +4,6 @@
     margin: 0
     padding: 0
     box-sizing: border-box
-    user-select: none
     color: variables.$cWhite
     list-style: none
 
@@ -23,7 +22,10 @@ body
 
 .colorOrange
     fill: variables.$cOrange
-    font-size: 14px
+    transition: .2s
+
+    &:hover
+        color: variables.$cOrange-Hover
 
 .marginBottom20px
     margin-bottom: 20px
