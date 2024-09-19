@@ -19,6 +19,9 @@
         "subtitle": "../sobre",
         "title": "Sobre mim."
     },
+    "sectionBlog": {
+        "title": "Meus artigos."
+    },
     "sectionTech":{
         "subtitle": "../tecnologias",
         "title": "Tecnologias."
