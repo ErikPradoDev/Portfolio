@@ -1,43 +1,36 @@
-.photoProfile{
-    background-image: url(../../img//picProfile.jpg);
+.backgroundDesktop{
+    background-image: url(../../img/background-desktop.png);
     background-size: cover;
-}
-
-.backgroundWindowMainPage{
-    background-image: url(../../img/mainpage-windows.png);
-    background-size: cover;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
 }
 
-.backgroundWindowDesktop{
-    background-image: url(../../img/background-windows-desktop.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.backgroundDesktop:hover{
+    background-image: url(../../img/background-desktop-hover.png);
+}
+
+
+.windows:hover .backgroundDesktop{
+    background-image: url(../../img/background-desktop-hover.png);
 }
 
 .backgroundLockScreen{
-    background-image: url(../../img/mainpage-windows.png);
+    background-image: url(../../img/background-lockscreen.png);
     background-size: cover;
-    background-position: center;
+    background-position: top;
+    background-repeat: no-repeat;
+    transition: .4s;
+}
+
+.backgroundLockScreen:hover{
+    background-image: url(../../img/background-lockscreen-hover.png);
+}
+
+.backgroundErroPage{
+    background-image: url(../../img/background-errorpage.png);
+    background-position: top;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
-.projectWindows{
-    transition: .2s;
-}
 
-.windows:hover .projectWindows{
-    background-image: url(../../img/background-windows-desktop.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.backgroundErrorPage{
-    background-image: url(../../img/errorPage-Blue.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}

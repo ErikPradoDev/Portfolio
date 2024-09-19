@@ -69,11 +69,11 @@ export default function WindowsPage(){
                 <p className="imgPTxt txt"> {t('pageProjectWindows.p6')} </p>
                 
                 <p className="imgPSize txt">   <span className="cLight"> {t('pageProjectWindows.p7')} </span> </p>
-                <div className="photoProjectContainer backgroundWindowDesktop"></div>
+                <div className="photoProjectContainer backgroundDesktop"></div>
                 <p className="imgPTxt txt"> {t('pageProjectWindows.p8')} </p>
                 
                 <p className="imgPSize txt">   <span className="cLight"> {t('pageProjectWindows.p9')} </span> </p>
-                <div className="photoProjectContainer backgroundErrorPage"></div>
+                <div className="photoProjectContainer backgroundErroPage"></div>
                 <p className="imgPTxt txt"> {t('pageProjectWindows.p10')} <br /> {t('pageProjectWindows.p11')} </p>
             </section>
         </main>

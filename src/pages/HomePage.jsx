@@ -251,6 +251,7 @@ export default function HomePage(){
                         <p className='aboutTxtBlog'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, provident quia modi labore fugit error nostrum sint veritatis quibusdam expedita commodi nesciunt dolore suscipit cumque amet dolores! Doloremque, enim. Magni. </p>
                         <div className='lineBtn'>
                                 <button className='btnFill'> <Icon.FileTextFill className='iconBtn'/> Read Article </button>
+                                <p className='pTxtReading'>  <Icon.ClockFill className='colorOrange' /> 5 minutes reading time. </p>
                          </div>
             </Link>
 
@@ -264,6 +265,7 @@ export default function HomePage(){
                         <p className='aboutTxtBlog'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, provident quia modi labore fugit error nostrum sint veritatis quibusdam expedita commodi nesciunt dolore suscipit cumque amet dolores! Doloremque, enim. Magni. </p>
                         <div className='lineBtn'>
                         <button className='btnFill'> <Icon.FileTextFill className='iconBtn'/> Read Article </button>
+                        <p className='pTxtReading'>  <Icon.ClockFill className='colorOrange' /> 5 minutes reading time. </p>
                          </div>
             </div>
 
@@ -282,7 +284,7 @@ export default function HomePage(){
                 <div className='MarginAuto900px'>
                 <Link to={'/projects/windows-desktop-erik-prado'}>
                     <div className='cardProject windows marginBottom20px'>
-                        <div className='cardPhoto projectWindows backgroundWindowMainPage'>
+                        <div className='cardPhoto backgroundDesktop'>
                             <div className='txtNew'> <p> <Icon.BookmarkStarFill />  {t('sectionProject.new')} </p></div>
                         </div>
                         <div className='txtProject'>
