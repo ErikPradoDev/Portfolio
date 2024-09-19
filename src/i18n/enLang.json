@@ -41,27 +41,20 @@
         "p4": "Message:"
     },
     "pageProjectWindows":{
-        "verson": "Verson",
         "LinkGitHub": "GitHub Project Page",
         "LinkLinkedIn": "LinkedIn Post Page",
-        "pResume": "“Windows Desktop | Erik Prado” has the main objective of bringing immersion when turning on my desktop computer, having a lock screen, desktop, start menu with the option to open and close, and icons on the desktop that symbolize shortcuts to various website links.",
-        "p1": "Hello Devs, this project is very important to me, and I invite each of you to grab a cup of coffee and understand its meaning.",
-        "p2": "Since the beginning of my development as a front-end web programmer, I have always been involved with the thousands of web pages that we can create. From an e-commerce, a social network, a blog or even projects that are replicas of software.",
-        "p3": "I remember my first web developments, using only pure HTML and CSS, I developed replicas of the Nike, McDonalds and Starbucks websites.",
-        "p4": "It is worth mentioning that at the beginning I did not know the importance of semantic tags, nor did I know about the existence of responsive layouts.",
-        "p5": "As time went by, my interest grew more and more. Days and nights of studies improved all my knowledge and practices. Even the day I started my studies on React, it reminded me of the beginning of everything, when I thought the infinite possibilities of creating various web documents were incredible.",
-        "p6": "And then came “Windows Desktop | Erik Prado”, a project whose main objective is to bring immersion when turning on my desktop computer, having a lock screen, desktop, start menu with the option to open and close, and icons on the desktop that symbolize shortcuts to various website links.",
-        "p7": "For this project I used React-Router-Dom to enable navigation between pages. Containing 3 main routes:",
-        "p8": "- Lock Screen:",
-        "p9": "(Being the first preview screen of the entire project, this screen simulates the Windows lock screen, containing the current location, icons and profile picture, clicking on this screen will switch to the Windows login screen).",
-        "p10": "- Desktop: ",
-        "p11": "(Being the second viewing screen simulating the Windows desktop screen, containing the desktop with its respective icons and shortcuts, the taskbar, and the start menu).",
-        "p12": "- Error Page:",
-        "p13": "(As the error page simulates the famous Windows blue screen error, this screen is only allowed to be viewed if the webpage link has a wrong character, with the option of returning to the lock screen or the work).",
-        "p14": "The font used for this project is free to use, called “Segoe Ui Variable Font”, it has simple and minimalist features with a touch of modernity.",
-        "p15": "The image used on the lock screen is free to use, it was made available through the FreePink website.",
-        "p16": "It is worth mentioning that this project is in its initial version, I want to add more elements to provide greater immersion, such as tools and customization possibilities.",
-        "p17": "To stay up to date with this project and others, always check my LinkedIn, I always post all the news there."
+        "pResume": "With the main objective of providing immersion when turning on my desktop computer, having a lock screen, desktop, start menu with the option to open and close, and icons on the desktop that symbolize shortcuts to various website links.",
+        "p1": "With the main objective of providing a unique immersion for the user, the project is in its first version, with future plans to add more tools, standardization settings, and more visual elements in the next versions.",
+        "p2": "The font used for the project was Segoe Ui Variable Font, providing a thin and modern font.",
+        "p3": "The images used were acquired by FreePik.",
+        "p4": "To enable navigation between pages, React-Router-Dom was used, containing three main routes:",
+        "p5": "Lock Screen:",
+        "p6": "This is the first preview screen of the entire project, simulating the Windows lock screen. Containing the current time, interactive icons, profile picture and user name.",
+        "p7": "Desktop:",
+        "p8": "The second viewing screen simulates the Windows Desktop, containing the workspace with its respective icons and shortcuts, the taskbar and the start menu with the option to open and close.",
+        "p9": "Error Page:",
+        "p10": "React-Router-Dom allows us to create an error page whenever the website link is incorrect. With this possibility, I styled the error page to simulate the famous Windows blue screen error, with the option to return to the lock screen or to the desktop.",
+        "p11": "It is worth noting that this screen can only be viewed if the page link contains an incorrect character."
     }
 }
 

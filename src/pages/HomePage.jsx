@@ -250,11 +250,11 @@ export default function HomePage(){
                     <div className='lineSection'></div>  
                         <p className='aboutTxtBlog'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, provident quia modi labore fugit error nostrum sint veritatis quibusdam expedita commodi nesciunt dolore suscipit cumque amet dolores! Doloremque, enim. Magni. </p>
                         <div className='lineBtn'>
-                                <button className='btnSimple'> Read More </button>
+                                <button className='btnFill'> <Icon.FileTextFill className='iconBtn'/> Read Article </button>
                          </div>
             </Link>
 
-            <Link to='/blog/creative-process-of-a-website' className='blogCard'> 
+            <div className='blogCard'> 
                     <div className='imgBlogSize'>
                         <Icon.PencilSquare className='iconLamp' />
                     </div>
@@ -263,9 +263,9 @@ export default function HomePage(){
                     <div className='lineSection'></div>  
                         <p className='aboutTxtBlog'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, provident quia modi labore fugit error nostrum sint veritatis quibusdam expedita commodi nesciunt dolore suscipit cumque amet dolores! Doloremque, enim. Magni. </p>
                         <div className='lineBtn'>
-                                <button className='btnSimple'> Read More </button>
+                        <button className='btnFill'> <Icon.FileTextFill className='iconBtn'/> Read Article </button>
                          </div>
-            </Link>
+            </div>
 
             </div>
                 
@@ -322,12 +322,13 @@ export default function HomePage(){
                         
                             <div>
                                 <p className='techUsed'> {t('sectionProject.tech')} </p>
-                                <div className="lineTech ">
-                                    <div className='cardTech'> <p> #JavaScript </p></div>
-                                    <div className='cardTech'> <p> #Sass </p></div>
-                                    <div className='cardTech'> <p> #Vite </p></div>
-                                    <div className='cardTech'> <p> #React </p></div>
-                                    <div className='cardTech'> <p> #ReactRouters </p></div>
+                                <div className="techLine">
+                                    <p> #SASS </p>
+                                    <p> #JavaScript </p>
+                                    <p> #Git e GitHub </p>
+                                    <p> #Vite </p>
+                                    <p> #React </p>
+                                    <p> #React Router </p>
                                 </div>
                             </div>
 
@@ -336,8 +337,6 @@ export default function HomePage(){
                                 <button className='btnSimple'> <Icon.BoxArrowInUpRight className='iconBtn'/> Deploy </button>
                             </div>
                         </div>
-
-                        
                     </div>
                 </Link>
 
@@ -357,13 +356,14 @@ export default function HomePage(){
                             <p className='aboutTxt'> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis nulla ratione ex qui, laboriosam cumque nemo quasi officiis quae, nam natus vel quas, dolorum reprehenderit pariatur perspiciatis necessitatibus officia. Nihil! </p>
                         
                             <div>
-                                <p className='techUsed'> {t('sectionProject.new')} </p>
-                                <div className="lineTech">
-                                    <div className='cardTech'> <p> #JavaScript </p></div>
-                                    <div className='cardTech'> <p> #Sass </p></div>
-                                    <div className='cardTech'> <p> #Vite </p></div>
-                                    <div className='cardTech'> <p> #React </p></div>
-                                    <div className='cardTech'> <p> #ReactRouters </p></div>
+                                <p className='techUsed'> {t('sectionProject.tech')}  </p>
+                                <div className="techLine">
+                                    <p> #SASS </p>
+                                    <p> #JavaScript </p>
+                                    <p> #Git e GitHub </p>
+                                    <p> #Vite </p>
+                                    <p> #React </p>
+                                    <p> #React Router </p>
                                 </div>
                             </div>
 
@@ -372,8 +372,6 @@ export default function HomePage(){
                                 <button className='btnSimple'> <Icon.BoxArrowInUpRight className='iconBtn'/> Deploy </button>
                             </div>
                         </div>
-
-                        
                     </div>
                 </div>
 
