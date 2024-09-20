@@ -1,4 +1,9 @@
-{   "sectionWelcome":{
+{   "header": {
+    "txtHover": "| Back to Home",
+    "Projects": " Projects"
+    },
+    
+    "sectionWelcome":{
         "pHi": "Hi, i'm",
         "pFront": "Front-End Web Developer",
         "p1": "Hi, I'm Erik Prado, I currently live in Brazil and study computer science at UNICID University. I plan to graduate in 2028, and I'm focused on front-end studies, with the goal of specializing in full stack.",

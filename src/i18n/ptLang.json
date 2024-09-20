@@ -1,4 +1,10 @@
-{"sectionWelcome":{
+{   "header": {
+    "txtHover": "| Voltar para Home",
+    "Projects": "Projetos"
+    },
+    
+    
+    "sectionWelcome":{
         "pHi": "Olá, eu sou",
         "pFront": "Desenvolvedor Web Front-End",
         "p1": "Olá, sou Erik Prado, atualmente moro no Brasil e estudo ciência da computação na Universidade UNICID. Pretendo me formar em 2028, e estou focado em estudos front-end, com objetivo de me especializar em full stack.",
