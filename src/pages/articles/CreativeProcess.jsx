@@ -44,7 +44,7 @@ export default function CreativeProcess(){
         </div>
         </div>
     </div>
-</section>
+    </section>
 
 <section id="article" className="MarginAuto1100px">
     <div className="MarginAuto900px">

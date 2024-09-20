@@ -141,6 +141,9 @@
     "sectionProject":{
         "subtitle": "../projects",
         "title": "Featured Projects.",
+        "title2": "My Projects.",
+        "mainP1": "Hello developers, periodically I create projects on different topics in order to improve my techniques and skills. I always make the code available on GitHub and Deploy for you to view.",
+        "mainP2": "Feel free to view each project, share with others if you find it interesting.",
         "new" :"New Project",
         "tech" : "Technologies used:"
     },
