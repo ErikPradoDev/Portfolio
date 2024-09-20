@@ -241,17 +241,17 @@ export default function HomePage(){
                             <h2> {t('sectionBlog.title')} </h2>
                             <div className='lineSection'></div>
                             <div className='lineBlog MarginAuto900px'>
-            <Link to='/blog/creative-process-of-a-website' className='blogCard'> 
+            <Link to='/blog/article-creative-process-in-creating-a-website' className='blogCard'> 
                     <div className='imgBlogSize'>
                         <Icon.LightbulbFill className='iconLamp' />
                     </div>
-                        <p className='titleBlog'> Creative process of a website. </p>
-                        <p className='postBlog'> Published in January 1, 2024. </p>
+                        <p className='titleBlog'> {t('sectionBlog.titleBlog1')} </p>
+                        <p className='postBlog'> {t('sectionBlog.dateBlog1')} </p>
                     <div className='lineSection'></div>  
-                        <p className='aboutTxtBlog'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, provident quia modi labore fugit error nostrum sint veritatis quibusdam expedita commodi nesciunt dolore suscipit cumque amet dolores! Doloremque, enim. Magni. </p>
+                        <p className='aboutTxtBlog'> {t('sectionBlog.blog1Resume')} </p>
                         <div className='lineBtn'>
-                                <button className='btnFill'> <Icon.FileTextFill className='iconBtn'/> Read Article </button>
-                                <p className='pTxtReading'>  <Icon.ClockFill className='colorOrange' /> 5 minutes reading time. </p>
+                                <button className='btnFill'> <Icon.FileTextFill className='iconBtn'/> {t('sectionBlog.readArticle')} </button>
+                                <p className='pTxtReading'>  <Icon.ClockFill className='iconClock' /> 5 {t('sectionBlog.timeReading')} </p>
                          </div>
             </Link>
 
@@ -265,7 +265,7 @@ export default function HomePage(){
                         <p className='aboutTxtBlog'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, provident quia modi labore fugit error nostrum sint veritatis quibusdam expedita commodi nesciunt dolore suscipit cumque amet dolores! Doloremque, enim. Magni. </p>
                         <div className='lineBtn'>
                         <button className='btnFill'> <Icon.FileTextFill className='iconBtn'/> Read Article </button>
-                        <p className='pTxtReading'>  <Icon.ClockFill className='colorOrange' /> 5 minutes reading time. </p>
+                        <p className='pTxtReading'>  <Icon.ClockFill className='iconClock' /> 5 minutes reading time. </p>
                          </div>
             </div>
 

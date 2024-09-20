@@ -1,5 +1,5 @@
 import React from "react";
-import '../../styles/components/articles/windowsPage.sass';
+import '../../styles/components/projects/windowsPage.sass';
 import * as Icon from 'react-bootstrap-icons';
 import '../../styles/components/images.css';
 import { Link } from 'react-router-dom';

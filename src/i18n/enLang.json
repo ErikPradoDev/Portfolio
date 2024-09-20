@@ -20,7 +20,107 @@
         "title": "About me."
     },
     "sectionBlog": {
-        "title": "My articles."
+        "title": "My articles.",
+        "titleBlog1": "Creative process in creating a website.",
+        "dateBlog1": "Published in September 20, 2024.",
+        "readArticle":"Read Article",
+        "timeReading": "minutes reading time.",
+        "blog1Resume": "Did you know that the creative process is a natural part of transforming an idea into an action? I see that many developers have an incredible idea for a website, and then start developing it without preparing anything first. This can lead to several errors, frustrations and even complete abandonment.",
+        "blog1Convite": "I invite you to grab a cup of coffee and read this article to better understand how the creative process can help you on your journey.",
+        "p1": "During my web development journey, I noticed that many developers start coding a project without having any planning. And this can be a big problem, after all you are building something without having any basis to follow, and you can become confused, lost and even overwhelmed.",
+        "p2": "I bet you two days off that this has already occurred to you. There you are, sitting on the couch playing on your cell phone, and out of nowhere a wonderful idea comes up. This idea infects you with an energetic feeling full of enthusiasm. And before you even plan something you run to the computer, create a new folder in vscode and start typing lines and lines of code without knowing what it will look like when you finish everything.",
+        "p3": "Hours and hours pass, and you start analyzing the project thinking: “What do I do now?”, “Would this div be better centered or in some absolute position?”, “How am I going to make the part responsive?”. Thoughts like these become more and more contagious, and in the end you become overwhelmed by acting prematurely without having any planning.",
+        "p4": "The creative process is excellent for you to plan, think about the smallest details and test different ideas to see which ones work and which ones don't.",
+        "p5": "This article presents six steps that will help in your creative process when developing a website:",
+
+
+
+        "1stStep": "1st Step:",
+        "1stStepTitle": "Eliminating distractions and preparing your workplace.",
+        "1stP1": "A clean and organized workplace is essential for success. Make it a habit to clean and organize your entire environment before starting a project, eliminate any distractions that may occur, for example your cell phone, sometimes while you are programming your cell phone may notify you of something that is not interesting, making you unable to do so. focus and concentration.",
+        "1stP2": "With everything clean and organized, it’s time to start developing your project.",
+
+
+
+        "2stStep": "2st Step:",
+        "2stStepTitle": "Writing down ideas.",
+        "2stP1": "A great project comes through several ideas. I know how contagious it is when an idea comes to you, but how about developing it first? The first step is to make a script by writing down all the ideas and developing each one of them.",
+        "2stP2": "For better understanding, below is an example of what this script would look like:",
+        "2stP3": "- What is the main idea?",
+        "2stP4": "“I want to make my portfolio.”",
+        "2stP5": "- How important is this project?",
+        "2stP6": "“With my portfolio I can show my profile to the world, sharing my knowledge and projects”.",
+        "2stP7": "- What should be in this project??",
+        "2stP8": "“Personal information, my qualifications, my developed projects and contact details”.",
+        "2stP9": "- To be able to address everything I want, what do I need to do?",
+        "2stP10": "“I must separate my portfolio into several sessions, where each session will address a topic of what I want.",
+        "2stP11": "Thus, there is a session showing my personal information, a session about my qualifications, a session showing my projects that I have already developed, and a session to show my contact details”.",
+        "2stP12": "- Is there any need for this project?",
+        "2stP13": "“Being able to show all my information clearly and objectively.”",
+        "2stP14": "Can you see how the script managed to get the most out of an idea? Seeing the example above we understand the main objective of the project, its content and how it will be approached.",
+        "2stP15": "With all the ideas ready, let's plan your design.",
+
+
+
+        "3stStep": "3st Step:",
+        "3stStepTitle": "Designing the design.",
+        "3stP1": "We already have all the project information, so let's start thinking about its design, again a script can help very well in this part, after all here we will think about all the design features.",
+        "3stP2": "To continue having a better understanding, I will follow the example from the script above:",
+        "3stP3": "- What will the style of the project be?",
+        "3stP4": "“I want to create a project with simple visual characteristics, but at the same time with a touch of modernity”.",
+        "3stP5": "- What color palette will be used for the project?",
+        "3stP6": "“I want to use light colors, with shades of blue, gray and white.”",
+        "3stP7": "- What font to use?",
+        "3stP8": "“I like the Sans-Serif font, simple and beautiful.”",
+        "3stP9": "- What should the header look like?",
+        "3stP10": "“The header must contain buttons that will take the user to each session”.",
+        "3stP11": "- What should the footer look like?",
+        "3stP12": "“The footer will contain contact information, containing my email and business number.”",
+        "3stP13": "- What should be included in the first session of the project?",
+        "3stP14": "“I want it to contain a brief description about me, accompanied by a professional photo.”",
+        "3stP15": "The objective here is to think about all the visual elements we have on a website, describing in as much detail as possible what we want in each of them. Which makes it very interesting because a lot can be changed when we are actually creating the project design.",
+        "3stP16": "Now you have all the information about your project, you know its content, and you can imagine every visual detail of your page. How about we start creating the design?",
+
+
+
+        "4stStep": "4st Step:",
+        "4stStepTitle": "Design creation.",
+        "4stP1": "Many developers use Figma software to create designs for their projects. In addition to being free, its interface is extremely simple, which makes the program easy to use.",
+        "4stP2": "Using Figma we started to create a design from scratch based on all our previously discussed ideas.",
+        "4stP3": "Remember that creativity has no limits, create the design with everything you previously planned, look for inspiration, test different visual elements to see which one will fit best.",
+        "4stP4": "This step is essential because we often try several layouts to see which one we like the most, so do it slowly, everything in its own time.",
+        "4stP5": "A tip for this step is to always ask yourself “Am I getting across what I want?” This thought will serve as a basis for you to analyze and develop your design.",
+        "4stP6": "While creating the design, you will imagine yourself coding it, and this can help you a lot when you are writing the lines of code, after all, you already know what to do and have already thought about how to do it.",
+        "4stP7": "Example:",
+        "4stP8": "In the first section of the project I want it to contain a brief description about me, accompanied by a professional photo. How can I code this section?",
+        "4stP9": "“I can code this session by creating a",
+        "4stP10": ", adding two",
+        "4stP11": ", and with",
+        "4stP12": "I can leave them aligned in the horizontal line, being able to change to vertical to create a responsive layout using",
+        "4stP13": "The habit of imagining yourself coding a project brings many benefits, after all, you are already planning how to create what you are seeing through the lines of code. Experienced developers can describe step by step how to create a project just by looking at it.",
+        "4stP14": "With the design created, you are now ready to start coding your project.",
+
+
+
+
+        "5stStep": "5st Step:",
+        "5stStepTitle": "Preparing your material.",
+        "5stP1": "Again we meet with the organization, at this stage you will organize your project directory. Organize all the folders and files, add the necessary images and fonts, download all the packages you will use, prepare your styling files, get everything ready to start coding your design.",
+
+
+
+        "6stStep": "6st Step:",
+        "6stStepTitle": "Coding the project.",
+        "6stP1": "Due to the results of all the previous steps you have everything to start the last step, now just code the design of your project.",
+        "6stP2": "Remember that haste is the enemy of perfection, you don't need to rush through your project to finish it quickly, do it in your own time, dedicate yourself and use techniques to transform your code clean and organized, this makes future maintenance a lot easier.",
+        "6stP3": "Always pay attention to the lines of code, often something doesn't go as expected because a character is missing. This is completely normal, don't let yourself get stressed or discouraged because it's going wrong, take a deep breath, take a few minutes of rest, analyze the lines of code and you'll soon correct the problem and your code works correctly.",
+        "6stP4": "It's interesting to have the practice of visualizing your project as you code. Did you make a div? Look to see how it is. This way you can monitor how your website is doing. I recommend usingização do Git e GitHub para sempre deixar salvo.",
+
+
+
+        "finale": "Conclusion:",
+        "finaleP1": "The creative process is not a mandatory rule for creating a website, but through this article you were able to understand how it can help when coding. Following it step by step will result in planning rich in detail, with a design that addresses all your ideas. This makes the coding part more organized and practical, resulting in higher quality.",
+        "finaleP2": "Thank you for your attention and reading, I hope my content has helped you in some aspect. I wish you great commits and lots of coffee!"
     },
     "sectionTech":{
         "subtitle": "../tech",

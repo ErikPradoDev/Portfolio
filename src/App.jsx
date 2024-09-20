@@ -15,6 +15,7 @@ import ProjectsPage from './pages/ProjectsPage'
 import BlogPage from './pages/BlogPage'
 import ErrorPage from './pages/ErrorPage'
 import WindowsPage from './pages/projects/windowsPage';
+import CreativeProcess from './pages/articles/CreativeProcess';
 
 
 
@@ -67,6 +68,16 @@ const router = createBrowserRouter([
     {
       path: "/projects/windows-desktop-erik-prado",
       element: <WindowsPage />,
+    },
+  ]
+  },
+  {
+    path: "/blog/article-creative-process-in-creating-a-website",
+    element: <Dashboard />,
+    children: [
+    {
+      path: "/blog/article-creative-process-in-creating-a-website",
+      element: <CreativeProcess />,
     },
   ]
   },

@@ -20,7 +20,101 @@
         "title": "Sobre mim."
     },
     "sectionBlog": {
-        "title": "Meus artigos."
+        "title": "Meus artigos.",
+        "titleBlog1": "Processo criativo na criação de um site.",
+        "dateBlog1": "Publicado em 20 de Setembro de 2024.",
+        "readArticle":"Ler Artigo",
+        "timeReading": "minutos de tempo de leitura.",
+        "blog1Resume": "Vocês sabiam que o processo criativo é uma parte natural da transformação de uma ideia em uma ação? Vejo por aí que muitos desenvolvedores tenham uma ideia incrível para um site, e logo em seguida começa a desenvolver sem preparar nada antes. Isso pode ocasionar em diversos erros, frustações e até mesmo a desistência por completo.",
+        "blog1Convite": "Te convido a pegar uma xícara de café e ler esse artigo para entender melhor como o processo criativo pode te ajudar na sua jornada.",
+        "p1": "Durante minha jornada em desenvolvimento web, percebi que muitos desenvolvedores começam a codificar um projeto sem ter nenhum planejamento. E isso pode ser um grande problema, afinal você está construindo algo sem ter nenhuma base para seguir, podendo ficar confuso, perdido e até sobrecarregado.",
+        "p2": "Eu aposto dois dias de folga com você que isso já lhe ocorreu. Lá está você, sentado no sofá mexendo no celular, e do nada surge uma ideia maravilhosa. Essa ideia te contagia com um sentimento energético cheio de entusiasmo. E antes mesmo de planejar algo você corre para o computador, cria uma nova pasta no vscode e começa a digitar linhas e linhas de código sem saber como vai ficar ao terminar tudo.",
+        "p3": "Horas e horas se passaram, e você começa analisar o projeto pensando: “O que eu faço agora?”, “Será que essa div fica melhor centralizada ou em alguma posição absoluta?”, “Como vou fazer a parte responsiva?”. Pensamentos como esses contagiam cada vez mais, e no fim você fica sobrecarregado por agir precocemente sem ter nenhum planejamento.",
+        "p4": "O processo criativo é excelente para você se planejar, pensar nos mínimos detalhes e testar diversas ideias para ver quais funciona e quais não.",
+        "p5": "Esse artigo apresenta seis etapas que vão ajudar no seu processo criativo ao desenvolver um site:",
+
+
+        "1stStep": "1ª Etapa:",
+        "1stStepTitle": "Eliminando as distrações e preparando seu local de trabalho.",
+        "1stP1": "Um local de trabalho limpo e organizado é essencial para o sucesso. Tenha o hábito de antes de começar um projeto limpar e organizar todo o seu ambiente, elimine quaisquer distrações que podem ocorrer, por exemplo o próprio celular, as vezes enquanto você está programando seu celular pode te notificar algo que não é interessante, fazendo você poder o foco e a concentração.",
+        "1stP2": "Com tudo limpo e organizado está na hora de começar a desenvolver o seu projeto.",
+
+        "2stStep": "2ª Etapa::",
+        "2stStepTitle": "Escrevendo as ideias.",
+        "2stP1": "Um grande projeto vem através de diversas ideias. Sei como é contagiante quando surge uma ideia, mas que tal desenvolvê-la primeiro? O primeiro passo é fazer um roteiro escrevendo todas as ideias e desenvolvendo cada uma delas.",
+        "2stP2": "Para melhor compreensão abaixo está um exemplo de como seria esse roteiro:",
+        "2stP3": "- Qual a ideia principal?",
+        "2stP4": "“Quero fazer meu portfólio”.",
+        "2stP5": "- Qual a importância desse projeto?",
+        "2stP6": "“Com o meu portfólio posso mostrar meu perfil para o mundo, compartilhando meus conhecimentos e projetos”.",
+        "2stP7": "- O que deve ter nesse projeto?",
+        "2stP8": "“Informações pessoais, minhas qualificações, meus projetos desenvolvidos e formas de contato”.",
+        "2stP9": "- Para conseguir abordar tudo o que eu quero, o que preciso fazer?",
+        "2stP10": "“Devo separar meu portfolio em diversas sessões, onde cada sessão vai abordar um tema do que eu quero.",
+        "2stP11": "Ficando assim uma sessão mostrando minhas informações pessoais, uma sessão sobre minhas qualificações, uma sessão mostrando meus projetos que já desenvolvi, e uma sessão para mostrar minhas formas de contato”.",
+        "2stP12": "- Existe alguma necessidade nesse projeto?",
+        "2stP13": "“Conseguir mostrar todas as minhas informações de forma clara e objetiva”.",
+        "2stP14": "Consegue perceber como o roteiro conseguiu extrair o máximo de uma ideia? Vendo o exemplo acima entendemos o principal objetivo do projeto, o seu conteúdo e como vai ser abordado.",
+        "2stP15": "Com todas as ideias prontas vamos planejar o seu design.",
+
+
+        "3stStep": "3ª Etapa:",
+        "3stStepTitle": "Projetando o design.",
+        "3stP1": "Já temos todas as informações do projeto, então vamos começar a pensar em seu design, novamente um roteiro pode ajudar muito bem nessa parte, afinal aqui vamos pensar em todas as características do design.",
+        "3stP2": "Para continuar tendo uma compreensão melhor, irei seguir com o exemplo do roteiro acima:",
+        "3stP3": "- Qual vai ser o estilo do projeto?",
+        "3stP4": "“Quero criar um projeto com características visuais simples, mas ao mesmo tempo com um toque de modernidade”.",
+        "3stP5": "- Qual será a paleta de cores utilizadas para o projeto?",
+        "3stP6": "“Quero utilizar cores claras, com tons de azul, cinza e branco”.",
+        "3stP7": "- Qual fonte utilizar?",
+        "3stP8": "“Gosto da fonte Sans-Serif, simples e bonita”.",
+        "3stP9": "- Como deve ser o cabeçalho?",
+        "3stP10": "“O cabeçalho deve conter botões que vai levar o usuário a cada sessão”.",
+        "3stP11": "- Como deve ser o rodapé?",
+        "3stP12": "“O rodapé vai conter informações de contato, contendo meu e-mail e número comercial”.",
+        "3stP13": "- O que deve conter na primeira sessão do projeto?",
+        "3stP14": "“Quero que contenha uma breve descrição sobre mim, acompanhando uma foto profissional”.",
+        "3stP15": "O objetivo aqui é pensar em todos os elementos visuais que temos em um site, descrevendo com o máximo de detalhes do que queremos em cada um deles. O que torna muito interessante pois muita coisa pode ser mudada quando estivermos de fato criando o design do projeto.",
+        "3stP16": "Agora você já tem todas as informações do seu projeto, já sabe o seu conteúdo, e já consegue imaginar cada detalhe visual da sua página. Que tal começarmos a criar o design?",
+
+
+
+        "4stStep": "4ª Etapa:",
+        "4stStepTitle": "Criação do design.",
+        "4stP1": "Muitos desenvolvedores utilizam o software Figma para a criação de designs de seus projetos. Além de ser gratuito sua interface é extremamente simples, o que facilita na utilização do programa.",
+        "4stP2": "Utilizando o Figma começamos a criar um design do zero baseado em todas as nossas ideias discutidas anteriormente.",
+        "4stP3": "Lembrem-se que a criatividade não tem limites, criem o design com tudo o que você planejou anteriormente, busquem inspirações, testem diversos elementos visuais para ver qual vai se encaixar melhor.",
+        "4stP4": "Essa etapa é essencial pois muitas vezes testamos diversos layoults para ver qual agrada mais, então faça sem pressa, tudo ao seu tempo.",
+        "4stP5": "Uma dica para essa etapa é sempre se perguntar “Estou conseguindo passar o que eu quero?”, esse pensamento vai servir como base para você analisar e desenvolver seu design.",
+        "4stP6": "Durante a criação do design você vai se imaginar codificando-o, e isso pode te ajudar muito na hora em que estiver escrevendo as linhas de códigos, afinal você já sabe o que fazer e já pensou em como fazer.",
+        "4stP7": "Exemplo:",
+        "4stP8": "Na primeira sessão do projeto quero que contenha uma breve descrição sobre mim, acompanhando uma foto profissional. Como posso codificar essa sessão?",
+        "4stP9": "“Posso codificar essa sessão criando",
+        "4stP10": ", adicionando duas",
+        "4stP11": ", e com o",
+        "4stP12": "consigo deixar elas alinhadas na linha horizontal, podendo modificar para a vertical para criar um layoult responsivo utilizando o",
+        "4stP13": "O hábito de se imaginar codificando um projeto trás muitos benefícios, afinal você já planejando como criar o que está vendo através das linhas de códigos. Desenvolvedores experientes conseguem descrever passo a passo de como criar um projeto apenas olhando para ele.",
+        "4stP14": "Com o design criado você já está preparado para iniciar a codificação do seu projeto.",
+
+
+
+        "5stStep": "5ª Etapa:",
+        "5stStepTitle": "Preparando o seu material.",
+        "5stP1": "Novamente nos encontramos com a organização, nessa etapa você vai organizar o diretório do seu projeto. Organize todas as pastas e arquivos, adicione as imagens e fontes necessárias, baixe todos os pacotes que irá utilizar, prepare seus arquivos de estilizações, deixe tudo pronto para começar a codificar o seu design.",
+
+
+
+        "6stStep": "6ª Etapa:",
+        "6stStepTitle": "Codificando o projeto.",
+        "6stP1": "Graças ao resultado de todas as etapas anteriores você tem tudo para iniciar a última etapa, agora basta codificar o design do seu projeto.",
+        "6stP2": "Lembrem-se que a pressa é inimiga da perfeição, não precisa fazer o seu projeto correndo para terminar logo, faça no seu tempo, se dedique e utilize técnicas para transformar seu código limpo e organizado, isso facilita muito em manutenções futuras.",
+        "6stP3": "Sempre se atente nas linhas de códigos, muitas vezes algo não sai como esperado por estar faltando um caractere. Isso é completamente normal, não deixe se estressar ou se desanimar por estar dando errado, respire fundo, tire alguns minutos de descanso, analise as linhas de códigos que logo você corrige o problema e seu código funciona corretamente.",
+        "6stP4": "É interessante ter a prática de ir visualizando seu projeto conforme você vai codificando. Fez uma div? Olhe para ver como está. Assim você consegue acompanhando como o seu site está ficando. Recomendo a utilização do Git e GitHub para sempre deixar salvo.",
+
+        "finale": "Conclusão:",
+        "finaleP1": "O processo criativo não é uma regra obrigatória para criar um site, mas através desse artigo você conseguiu compreender como ele pode ajudar na hora da codificação. Seguindo etapa por etapa terá como resultado um planejamento rico em detalhes, com um design que aborda todas as suas ideias. Isso torna a parte da codificação mais organizado e prático, tendo como resultado uma qualidade superior.",
+        "finaleP2": "Obrigado pela atenção e leitura, espero que meu conteúdo o tenha ajudado em algum aspecto. Desejo ótimos commits e muito café!"
+
     },
     "sectionTech":{
         "subtitle": "../tecnologias",
