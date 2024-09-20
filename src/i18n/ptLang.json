@@ -9,7 +9,8 @@
         "pFront": "Desenvolvedor Web Front-End",
         "p1": "Olá, sou Erik Prado, atualmente moro no Brasil e estudo ciência da computação na Universidade UNICID. Pretendo me formar em 2028, e estou focado em estudos front-end, com objetivo de me especializar em full stack.",
         "p2": "Priorizo ​​o desenvolvimento de código limpo, com fácil manutenção, qualidade e sustentabilidade nos projetos, com aplicações responsivas garantindo uma experiência de usuário excepcional.",
-        "contact": "Contato"
+        "contact": "Contato",
+        "backHome": "Voltar Para Home"
     },
     "sectionInfoNumber":{
         "commitp1": "Commits de",
@@ -26,9 +27,15 @@
         "title": "Sobre mim."
     },
     "sectionBlog": {
+        "subtitle": "../artigos",
+        "title2": "Boa leitura!",
+        "mainP1": "Olá desenvolvedores, periodicamente eu escrevo artigos abordando diversos temas que podem te ajudar e acrescentar conhecimentos e técnicas em sua vida pessoal e profissional.",
+        "mainP2": "Fique a vontade para ler cada artigo, compartilhe com os demais se achar o conteúdo relevante.",
         "title": "Meus artigos.",
         "titleBlog1": "Processo criativo na criação de um site.",
         "dateBlog1": "Publicado em 20 de Setembro de 2024.",
+        "titleBlog2": "Artigo sendo escrito.",
+        "dateBlog2": "Artigo ainda não postado.",
         "readArticle":"Ler Artigo",
         "timeReading": "minutos de tempo de leitura.",
         "blog1Resume": "Vocês sabiam que o processo criativo é uma parte natural da transformação de uma ideia em uma ação? Vejo por aí que muitos desenvolvedores tenham uma ideia incrível para um site, e logo em seguida começa a desenvolver sem preparar nada antes. Isso pode ocasionar em diversos erros, frustações e até mesmo a desistência por completo.",

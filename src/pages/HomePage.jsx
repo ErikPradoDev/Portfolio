@@ -54,7 +54,7 @@ export default function HomePage(){
             </section>
 
             <section id='numberInfo'>
-                <div className="MarginAuto1100px flex">
+                <div className="MarginAuto1100px flex numberInfo">
                     <Link to="https://github.com/ErikPradoDev" target='_blank'>
                         <div className='numberInfoSize'>
                             <p className='number'>+70</p>
@@ -241,6 +241,9 @@ export default function HomePage(){
                             <h2> {t('sectionBlog.title')} </h2>
                             <div className='lineSection'></div>
                             <div className='lineBlog MarginAuto900px'>
+
+
+                                
             <Link to='/blog/article-creative-process-in-creating-a-website' className='blogCard'> 
                     <div className='imgBlogSize'>
                         <Icon.LightbulbFill className='iconLamp' />
@@ -259,10 +262,10 @@ export default function HomePage(){
                     <div className='imgBlogSize'>
                         <Icon.PencilSquare className='iconLamp' />
                     </div>
-                        <p className='titleBlog'> Article being written. </p>
-                        <p className='postBlog'> Published in January 1, 2024. </p>
+                    <p className='titleBlog'> {t('sectionBlog.titleBlog2')} </p>
+                    <p className='postBlog'> {t('sectionBlog.dateBlog2')} </p>
                     <div className='lineSection'></div>  
-                        <p className='aboutTxtBlog'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, provident quia modi labore fugit error nostrum sint veritatis quibusdam expedita commodi nesciunt dolore suscipit cumque amet dolores! Doloremque, enim. Magni. </p>
+                        <p className='aboutTxtBlog'> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic fugit maiores aperiam tempore rerum earum? Reprehenderit quibusdam dolor placeat ut quas eligendi atque quisquam. Qui sequi optio unde corrupti quas. </p>
                         <div className='lineBtn'>
                         <button className='btnFill'> <Icon.FileTextFill className='iconBtn'/> Read Article </button>
                         <p className='pTxtReading'>  <Icon.ClockFill className='iconClock' /> 5 minutes reading time. </p>

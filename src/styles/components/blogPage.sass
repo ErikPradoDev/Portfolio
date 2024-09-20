@@ -1,0 +1,46 @@
+@use '../variables'
+
+section#articles
+    padding-top: 120px
+
+    .blogCardSize
+        border: 2px solid variables.$cBorder
+        background-color: variables.$primaryCHover
+        border-radius: 5px
+        width: 100%
+        padding: 10px
+        position: relative
+        transition: .2s
+
+        &:hover
+            cursor: pointer
+            border: 2px solid variables.$cBorder-Hover
+            
+        
+        .imgBlogSize
+            background-color: #2b2b2b
+            width: 40px
+            height: 40px
+            display: flex
+            justify-content: center
+            align-items: center
+            border-radius: 5px
+            position: absolute
+            top: 10px
+            left: 10px
+
+        .titleBlog
+            margin-left: 50px
+            color: variables.$cWhite
+            font-family: variables.$font-inter-medium
+
+        .postBlog
+            font-size: 14px
+            margin-left: 50px
+            margin-top: 4px
+            font-family: variables.$font-inter-regular
+            color: variables.$cTxt
+
+.marginTop
+    margin-top: 20px
+        

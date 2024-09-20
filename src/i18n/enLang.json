@@ -8,7 +8,8 @@
         "pFront": "Front-End Web Developer",
         "p1": "Hi, I'm Erik Prado, I currently live in Brazil and study computer science at UNICID University. I plan to graduate in 2028, and I'm focused on front-end studies, with the goal of specializing in full stack.",
         "p2": "I prioritize clean code development, with easy maintenance, quality and sustainability in projects, with responsive applications ensuring an exceptional user experience.",
-        "contact": "Contact"
+        "contact": "Contact",
+        "backHome": "Back to Home"
     },
     "sectionInfoNumber":{
         "commitp1": "Code",
@@ -25,9 +26,15 @@
         "title": "About me."
     },
     "sectionBlog": {
+        "subtitle": "../articles",
+        "title2": "Happy reading!",
         "title": "My articles.",
         "titleBlog1": "Creative process in creating a website.",
         "dateBlog1": "Published in September 20, 2024.",
+        "titleBlog2": "Article being written.",
+        "mainP1": "Hello developers, I periodically write articles covering various topics that can help you and add knowledge and techniques to your personal and professional life.",
+        "mainP2": "Feel free to read each article and share it with others if you find the content relevant.",
+        "dateBlog2": "Article not yet posted.",
         "readArticle":"Read Article",
         "timeReading": "minutes reading time.",
         "blog1Resume": "Did you know that the creative process is a natural part of transforming an idea into an action? I see that many developers have an incredible idea for a website, and then start developing it without preparing anything first. This can lead to several errors, frustrations and even complete abandonment.",
