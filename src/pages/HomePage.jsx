@@ -385,10 +385,10 @@ export default function HomePage() {
 
                         <Link to='/blog/article-creative-process-in-creating-a-website'>
                             <motion.div className='blogCard'
-                            initial={{ opacity: 0, x: -100 }}
-                            whileInView={{ opacity: 1, x: 0 }}
-                            transition={{ ease: "easeOut", duration: 1.5 }}
-                            viewport={{ once: true }}
+                                initial={{ opacity: 0, x: -100 }}
+                                whileInView={{ opacity: 1, x: 0 }}
+                                transition={{ ease: "easeOut", duration: 1.5 }}
+                                viewport={{ once: true }}
                             >
                                 <div className='imgBlogSize'>
                                     <Icon.LightbulbFill className='iconLamp' />
@@ -431,9 +431,24 @@ export default function HomePage() {
 
             <section id='projects'>
                 <div className="MarginAuto1100px flex">
-                    <h3> {t('sectionProject.subtitle')} </h3>
-                    <h2> {t('sectionProject.title')} </h2>
-                    <div className='lineSection'></div>
+                    <motion.h3
+                        initial={{ opacity: 0, x: -100 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ ease: "easeOut", duration: 1.5 }}
+                        viewport={{ once: true }}
+                    > {t('sectionProject.subtitle')} </motion.h3>
+                    <motion.h2
+                        initial={{ opacity: 0, x: -100 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ ease: "easeOut", duration: 1.5 }}
+                        viewport={{ once: true }}
+                    > {t('sectionProject.title')} </motion.h2>
+                    <motion.div className='lineSection'
+                        initial={{ opacity: 0, x: -100 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ ease: "easeOut", duration: 1.5 }}
+                        viewport={{ once: true }}
+                    ></motion.div>
 
                     <div className='MarginAuto900px'>
                         <Link to={'/projects/windows-desktop-erik-prado'}>
