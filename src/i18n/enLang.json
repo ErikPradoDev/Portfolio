@@ -2,6 +2,11 @@
     "txtHover": "| Back to Home",
     "Projects": " Projects"
     },
+
+    "footer":{
+    "madeWith": "Made with",
+    "by": "by"
+    },
     
     "sectionWelcome":{
         "pHi": "Hi, i'm",
