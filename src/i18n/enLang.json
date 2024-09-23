@@ -158,7 +158,8 @@
         "p1": "Feel free to contact me, discuss collaborating on a project or simply say 'hi'. You can email me at",
         "p2": "Full name:",
         "p3": "Email address:",
-        "p4": "Message:"
+        "p4": "Subject:",
+        "p5": "Message:"
     },
     "pageProjectWindows":{
         "LinkGitHub": "GitHub Project Page",

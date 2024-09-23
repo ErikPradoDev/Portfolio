@@ -53,6 +53,9 @@ export default function Footer() {
                             <input className='inputTxt' type="email" name="" id="" />
 
                             <label> {t('sectionContact.p4')} </label>
+                            <input className='inputTxt' type="text" name="" id="" />
+
+                            <label> {t('sectionContact.p5')} </label>
                             <textarea>
                             </textarea>
 

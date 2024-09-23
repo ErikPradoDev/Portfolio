@@ -153,7 +153,8 @@
         "p1": "Sinta-se à vontade para entrar em contato comigo, discutir colaboração em um projeto ou simplesmente dizer 'oi'. Você pode me enviar um e-mail para",
         "p2": "Nome completo:",
         "p3": "Endereço de e-mail:",
-        "p4": "Mensagem:"
+        "p4": "Assunto:",
+        "p5": "Mensagem:"
     },
     "pageProjectWindows":{
         "LinkGitHub": "Página do Projeto GitHub:",
