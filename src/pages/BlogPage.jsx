@@ -32,85 +32,45 @@ export default function BlogPage() {
 
                 </div>
 
-                <div className="MarginAuto1100px">
-                    <motion.h3
-                        initial={{ opacity: 0, x: -100 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        transition={{ ease: "easeOut", duration: 1.5 }}
-                        viewport={{ once: true }}
-                    >../blog</motion.h3>
-                    <motion.h2
-                        initial={{ opacity: 0, x: -100 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        transition={{ ease: "easeOut", duration: 1.5 }}
-                        viewport={{ once: true }}
-                    > {t('sectionBlog.title')} </motion.h2>
-                    <motion.div className='lineSection'
-                        initial={{ opacity: 0, x: -100 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        transition={{ ease: "easeOut", duration: 1.5 }}
-                        viewport={{ once: true }}
-                    ></motion.div>
+                <motion.div className="MarginAuto1100px"
+                    initial={{ opacity: 0, x: -100 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ ease: "easeOut", duration: 1.5 }}
+                    viewport={{ once: true }}
+                >
+                    <h3>../blog</h3>
+                    <h2> {t('sectionBlog.title')} </h2>
+                    <div className='lineSection'></div>
 
                     <div className="MarginAuto900px">
-                        <motion.p className="txt"
-                        initial={{ opacity: 0, x: -100 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        transition={{ ease: "easeOut", duration: 1.5 }}
-                        viewport={{ once: true }}
-                        > {t('sectionBlog.mainP1')} </motion.p>
-                        <motion.p className="txt"
-                        initial={{ opacity: 0, x: -100 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        transition={{ ease: "easeOut", duration: 1.5 }}
-                        viewport={{ once: true }}
-                        > {t('sectionBlog.mainP2')} </motion.p>
+                        <p className="txt"> {t('sectionBlog.mainP1')} </p>
+                        <p className="txt"> {t('sectionBlog.mainP2')} </p>
 
                         <div className="lineBtn marginTop10px">
                             <Link to={'/'}>
-                                <motion.button className='btnFill'
-                        initial={{ opacity: 0, x: -100 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        transition={{ ease: "easeOut", duration: 1.5 }}
-                        viewport={{ once: true }}
-                                > <Icon.CaretLeftFill className='iconBtn' /> {t('sectionWelcome.backHome')} </motion.button>
+                                <button className='btnFill'> <Icon.CaretLeftFill className='iconBtn' /> {t('sectionWelcome.backHome')} </button>
                             </Link>
                         </div>
                     </div>
-                </div>
+                </motion.div>
             </section>
 
 
-            <section id='articles' className="MarginAuto1100px">
-                <motion.h3
-                    initial={{ opacity: 0, x: -100 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ ease: "easeOut", duration: 1.5 }}
-                    viewport={{ once: true }}
-                > {t('sectionBlog.subtitle')} </motion.h3>
-                <motion.h2
-                    initial={{ opacity: 0, x: -100 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ ease: "easeOut", duration: 1.5 }}
-                    viewport={{ once: true }}
-                > {t('sectionBlog.title2')} </motion.h2>
-                <motion.div className='lineSection'
-                    initial={{ opacity: 0, x: -100 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ ease: "easeOut", duration: 1.5 }}
-                    viewport={{ once: true }}
-                ></motion.div>
+            <motion.section id='articles' className="MarginAuto1100px"
+                initial={{ opacity: 0, x: -100 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ ease: "easeOut", duration: 1.5 }}
+                viewport={{ once: true }}
+            >
+                <h3> {t('sectionBlog.subtitle')} </h3>
+                <h2> {t('sectionBlog.title2')} </h2>
+                <div className='lineSection'></div>
 
                 <div className='MarginAuto900px'>
 
 
                     <Link to='/blog/article-creative-process-in-creating-a-website'>
-                        <motion.div className='blogCardSize'
-                            initial={{ opacity: 0, x: -100 }}
-                            whileInView={{ opacity: 1, x: 0 }}
-                            transition={{ ease: "easeOut", duration: 1.5 }}
-                            viewport={{ once: true }}
-                        >
+                        <div className='blogCardSize'>
                             <div className='imgBlogSize'>
                                 <Icon.LightbulbFill className='iconLamp' />
                             </div>
@@ -125,15 +85,10 @@ export default function BlogPage() {
                                 <button className='btnFill'> <Icon.FileTextFill className='iconBtn' /> {t('sectionBlog.readArticle')} </button>
                                 <p className='pTxtReading'>  <Icon.ClockFill className='iconClock' /> 5 {t('sectionBlog.timeReading')} </p>
                             </div>
-                        </motion.div>
+                        </div>
                     </Link>
 
-                    <motion.div className='blogCardSize marginTop'
-                        initial={{ opacity: 0, x: -100 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        transition={{ ease: "easeOut", duration: 1.5 }}
-                        viewport={{ once: true }}
-                    >
+                    <div className='blogCardSize marginTop'>
                         <div className='imgBlogSize'>
                             <Icon.PencilSquare className='iconLamp' />
                         </div>
@@ -145,14 +100,9 @@ export default function BlogPage() {
                             <button className='btnFill'> <Icon.FileTextFill className='iconBtn' /> Read Article </button>
                             <p className='pTxtReading'>  <Icon.ClockFill className='iconClock' /> 5 minutes reading time. </p>
                         </div>
-                </motion.div>
-
-
-
-
-
-            </div>
-        </section>
+                    </div>
+                </div>
+            </motion.section>
         </main >
     )
 }

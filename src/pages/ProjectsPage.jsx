@@ -29,86 +29,45 @@ export default function ProjectsPage() {
 
                 </div>
 
-                <div className="MarginAuto1100px">
-                    <motion.h3
-                        initial={{ opacity: 0, x: -100 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        transition={{ ease: "easeOut", duration: 1.5 }}
-                        viewport={{ once: true }}
-                    > {t('sectionProject.subtitle')} </motion.h3>
-                    <motion.h2
-                        initial={{ opacity: 0, x: -100 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        transition={{ ease: "easeOut", duration: 1.5 }}
-                        viewport={{ once: true }}
-                    > {t('sectionProject.title')} </motion.h2>
-                    <motion.div className='lineSection'
-                        initial={{ opacity: 0, x: -100 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        transition={{ ease: "easeOut", duration: 1.5 }}
-                        viewport={{ once: true }}
-                    ></motion.div>
+                <motion.div className="MarginAuto1100px"
+                    initial={{ opacity: 0, x: -100 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ ease: "easeOut", duration: 1.5 }}
+                    viewport={{ once: true }}
+                >
+                    <h3> {t('sectionProject.subtitle')} </h3>
+                    <h2> {t('sectionProject.title')} </h2>
+                    <div className='lineSection'></div>
 
                     <div className="MarginAuto900px">
-                        <motion.p className="txt"
-                            initial={{ opacity: 0, x: -100 }}
-                            whileInView={{ opacity: 1, x: 0 }}
-                            transition={{ ease: "easeOut", duration: 1.5 }}
-                            viewport={{ once: true }}
-                        > {t('sectionProject.mainP1')} </motion.p>
-                        <motion.p className="txt"
-                            initial={{ opacity: 0, x: -100 }}
-                            whileInView={{ opacity: 1, x: 0 }}
-                            transition={{ ease: "easeOut", duration: 1.5 }}
-                            viewport={{ once: true }}
-                        > {t('sectionProject.mainP2')} </motion.p>
+                        <p className="txt"> {t('sectionProject.mainP1')} </p>
+                        <p className="txt"> {t('sectionProject.mainP2')} </p>
 
                         <div className="lineBtn marginTop10px">
                             <Link to={'/'}>
-                                <motion.button className='btnFill'
-                                    initial={{ opacity: 0, x: -100 }}
-                                    whileInView={{ opacity: 1, x: 0 }}
-                                    transition={{ ease: "easeOut", duration: 1.5 }}
-                                    viewport={{ once: true }}
-                                > <Icon.CaretLeftFill className='iconBtn' /> {t('sectionWelcome.backHome')} </motion.button>
+                                <button className='btnFill'> <Icon.CaretLeftFill className='iconBtn' /> {t('sectionWelcome.backHome')} </button>
                             </Link>
                         </div>
                     </div>
-                </div>
+                </motion.div>
             </section>
 
 
+            <motion.section id='projects' className="MarginAuto1100px"
+                initial={{ opacity: 0, x: -100 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ ease: "easeOut", duration: 1.5 }}
+                viewport={{ once: true }}
+            >
 
-            <section id='projects' className="MarginAuto1100px">
-
-                <motion.h3
-                    initial={{ opacity: 0, x: -100 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ ease: "easeOut", duration: 1.5 }}
-                    viewport={{ once: true }}
-                > {t('sectionProject.subtitle')} </motion.h3>
-                <motion.h2
-                    initial={{ opacity: 0, x: -100 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ ease: "easeOut", duration: 1.5 }}
-                    viewport={{ once: true }}
-                > {t('sectionProject.title2')} </motion.h2>
-                <motion.div className='lineSection'
-                    initial={{ opacity: 0, x: -100 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ ease: "easeOut", duration: 1.5 }}
-                    viewport={{ once: true }}
-                ></motion.div>
+                <h3> {t('sectionProject.subtitle')} </h3>
+                <h2> {t('sectionProject.title2')} </h2>
+                <div className='lineSection'></div>
 
                 <div className='MarginAuto900px'>
 
                     <Link to={'/projects/windows-desktop-erik-prado'}>
-                        <motion.div className='cardProject windows marginBottom20px'
-                            initial={{ opacity: 0, x: -100 }}
-                            whileInView={{ opacity: 1, x: 0 }}
-                            transition={{ ease: "easeOut", duration: 1.5 }}
-                            viewport={{ once: true }}
-                        >
+                        <div className='cardProject windows marginBottom20px'>
                             <div className='cardPhoto backgroundDesktop'>
                                 <div className='txtNew'> <p> <Icon.BookmarkStarFill />  {t('sectionProject.new')} </p></div>
                             </div>
@@ -164,10 +123,10 @@ export default function ProjectsPage() {
                                     <button className='btnSimple'> <Icon.BoxArrowInUpRight className='iconBtn' /> Deploy </button>
                                 </div>
                             </div>
-                        </motion.div>
+                        </div>
                     </Link>
 
-                    <motion.div className='cardProject'
+                    <div className='cardProject'
                         initial={{ opacity: 0, x: -100 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ ease: "easeOut", duration: 1.5 }}
@@ -203,7 +162,7 @@ export default function ProjectsPage() {
                                 <button className='btnSimple'> <Icon.BoxArrowInUpRight className='iconBtn' /> Deploy </button>
                             </div>
                         </div>
-                    </motion.div>
+                    </div>
 
 
 
@@ -212,7 +171,7 @@ export default function ProjectsPage() {
 
 
 
-            </section>
+            </motion.section>
 
 
         </main>
