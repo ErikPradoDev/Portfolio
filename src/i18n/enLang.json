@@ -159,17 +159,23 @@
         "LinkGitHub": "GitHub Project Page",
         "LinkLinkedIn": "LinkedIn Post Page",
         "pResume": "With the main objective of providing immersion when turning on my desktop computer, having a lock screen, desktop, start menu with the option to open and close, and icons on the desktop that symbolize shortcuts to various website links.",
-        "p1": "With the main objective of providing a unique immersion for the user, the project is in its first version, with future plans to add more tools, standardization settings, and more visual elements in the next versions.",
-        "p2": "The font used for the project was Segoe Ui Variable Font, providing a thin and modern font.",
-        "p3": "The images used were acquired by FreePik.",
-        "p4": "To enable navigation between pages, React-Router-Dom was used, containing three main routes:",
-        "p5": "Lock Screen:",
-        "p6": "This is the first preview screen of the entire project, simulating the Windows lock screen. Containing the current time, interactive icons, profile picture and user name.",
-        "p7": "Desktop:",
-        "p8": "The second viewing screen simulates the Windows Desktop, containing the workspace with its respective icons and shortcuts, the taskbar and the start menu with the option to open and close.",
-        "p9": "Error Page:",
-        "p10": "React-Router-Dom allows us to create an error page whenever the website link is incorrect. With this possibility, I styled the error page to simulate the famous Windows blue screen error, with the option to return to the lock screen or to the desktop.",
-        "p11": "It is worth noting that this screen can only be viewed if the page link contains an incorrect character."
+        
+        "pFirstScren": "First preview screen.",
+        "pSeccondScren": "Second viewing screen.",
+        "pThirdScren": "Third preview screen.",
+
+        "pLockScreen": "Lock Screen:",
+        "pDesktopScreen": "Desktop:",
+        "pErrorPage": "Error Page:",
+
+        "p1": "“Windows Desktop | Erik Prado” is a simple project created with React technology. The project is in its first version, with future plans to add more tools, standardization settings, standard Windows applications, and more visual elements in future versions.",
+        "p2": "The font used for the project was the Segoe Ui Variable Font, providing a thin and modern font simulating the standard Windows font.",
+        "p3": "The Project contains three visualization screens, thanks to React-Router-Dom it was possible to navigate between the respective pages.",
+        "p4": "The first preview screen is the replica of the Windows lock screen. Having the same visual elements as the original, the screen contains the current time, interactive icons, profile photo and the user's name.",
+        "p5": "The background image was acquired by FreePink, there is an icon in the top right corner informing its origin.",
+        "p6": "The second viewing screen is the replica of the Windows desktop. Being faithful to the positioning of the elements, containing the desktop with their respective icons and shortcuts, the taskbar with its information and the start menu with the option to open and close on click.",
+        "p7": "React-Router-Dom allows us to create an error page whenever the website link is incorrect. With this possibility, I styled the error page to simulate the famous Windows blue screen error, with the option to return to the lock screen or to the desktop.",
+        "p8": "It is worth noting that this screen can only be viewed if the page link contains an incorrect character."
     }
 }
 

@@ -52,7 +52,7 @@
         "1stP1": "Um local de trabalho limpo e organizado é essencial para o sucesso. Tenha o hábito de antes de começar um projeto limpar e organizar todo o seu ambiente, elimine quaisquer distrações que podem ocorrer, por exemplo o próprio celular, as vezes enquanto você está programando seu celular pode te notificar algo que não é interessante, fazendo você poder o foco e a concentração.",
         "1stP2": "Com tudo limpo e organizado está na hora de começar a desenvolver o seu projeto.",
 
-        "2stStep": "2ª Etapa::",
+        "2stStep": "2ª Etapa:",
         "2stStepTitle": "Escrevendo as ideias.",
         "2stP1": "Um grande projeto vem através de diversas ideias. Sei como é contagiante quando surge uma ideia, mas que tal desenvolvê-la primeiro? O primeiro passo é fazer um roteiro escrevendo todas as ideias e desenvolvendo cada uma delas.",
         "2stP2": "Para melhor compreensão abaixo está um exemplo de como seria esse roteiro:",
@@ -154,17 +154,24 @@
         "LinkGitHub": "Página do Projeto GitHub:",
         "LinkLinkedIn": "Página da Publicação do LinkedIn:",
         "pResume": "Com o principal objetivo de proporcionar a imersão ao ligar meu computador desktop, possuindo tela de bloqueio, área de trabalho, menu iniciar com opção de abrir e fechar, e ícones na área de trabalho que simbolizam atalhos para diversos links de sites.",
-        "p1": "Com o principal objetivo de proporcionar uma imersão única para o usuário, o projeto está na sua primeira versão, com planos futuros da adição de mais ferramentas, configurações de padronização, e mais elementos visuais nas próximas versões.",
-        "p2": "A fonte utilizada para o projeto foi a Segoe Ui Variable Font, porporcionando uma fonte fina e moderna.",
-        "p3": "As imagens utilizadas foram adquiridas pelo FreePink.",
-        "p4": "Para realizar a possibilidade de navegação entre as páginas foi utilizado o React-Router-Dom, contendo três principais rotas:",
-        "p5": "Tela de Bloqueio:",
-        "p6": "Essa é a primeira tela de visualização de todo o projeto, simulando a tela de bloqueio do Windows. Contendo o horário atual, icones interativos, foto de perfil e o nome do usuário.",
-        "p7": "Desktop:",
-        "p8": "A segunda tela de visualização simula o Desktop do Windows, contendo a área de trabalho com seus respectivos ícones e atalhos, a barra de tarefas e o menu iniciar com a opção de abrir e fechar.",
-        "p9": "Página de Erro:",
-        "p10": "O React-Router-Dom nos possibilita criar uma página de erro quase o link do website estiver incorreto. Com essa possibilidade estilizei a página de erro para simular o famoso erro de tela azul do Windows, com opção de retornar para a tela de bloqueio ou para o desktop.",
-        "p11": "Vale ressaltar que essa tela só pode ser visualizada caso o link da página tenha algum caractere errado."
+        
+        "pFirstScren": "Primeira tela de visualização.",
+        "pSeccondScren": "Segunda tela de visualização.",
+        "pThirdScren": "Terceira tela de visualização.",
+
+
+        "pLockScreen": "Tela de Bloqueio:",
+        "pDesktopScreen": "Desktop:",
+        "pErrorPage": "Página de Erro:",
+
+        "p1": "“Windows Desktop | Erik Prado” é um projeto simples criado com a tecnologia do React. O projeto está na sua primeira versão, com planos futuros da adição de mais ferramentas, configurações de padronização, aplicativos padrões do Windows, e mais elementos visuais nas próximas versões.",
+        "p2": "A fonte utilizada para o projeto foi a Segoe Ui Variable Font, proporcionando uma fonte fina e moderna simulando a fonte padrão do Windows.",
+        "p3": "O Projeto contém três telas de visualizações, graças ao React-Router-Dom foi possível realizar a navegação entre as respectivas páginas.",
+        "p4": "A primeira tela de visualização é a réplica da tela de bloqueio do Windows. Possuindo os mesmos elementos visuais do original a tela contém o horário atual, icones interativos, foto de perfil e o nome do usuário.",
+        "p5": "A imagem de fundo foi adquirida pelo FreePink, há um ícone no canto superior direito informando a sua origem.",
+        "p6": "A segunda tela de visualização é a réplica do desktop do Windows. Estando fiel  ao posicionamento dos elementos, contendo a área de trabalho com seus respectivos ícones e atalhos, a barra de tarefas com suas informações e o menu iniciar com a opção de abrir e fechar ao clicar.",
+        "p7": "O React-Router-Dom nos possibilita criar uma página de erro quase o link do website estiver incorreto. Com essa possibilidade estilizei a página de erro para simular o famoso erro de tela azul do Windows, com opção de retornar para a tela de bloqueio ou para o desktop.",
+        "p8": "Vale ressaltar que essa tela só pode ser visualizada caso o link da página tenha algum caractere errado."
     }
 }
 
