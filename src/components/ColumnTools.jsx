@@ -32,6 +32,7 @@ export default function ColumnTools(){
                         viewport={{ once: true }}
                     >
                         <Icon.Github className='iconGitHub' size={25} fill='#FFF'/>
+                        <p className='gitHubTxt'> GitHub | </p>
                     </motion.button>
                 </Link>
             </div>
@@ -45,6 +46,7 @@ export default function ColumnTools(){
                         viewport={{ once: true }}
                     >
                         <Icon.Linkedin className='iconLinkedIn' size={25} fill='#FFF'/>
+                        <p className='linkedInTxt'> LinkedIn | </p>
                     </motion.button>
             </Link>
                 </div>
@@ -57,15 +59,18 @@ export default function ColumnTools(){
                 >
 
                 {show && 
-                    <div className='divLingLang'>
-                        <button className='btnLang' onClick={() => changeLanguage('pt')}>PT</button>
-                         -
-                        <button className='btnLang' onClick={() => changeLanguage('en')}>EN</button>
-                        |
+                    <div className='divLingLangSize'>
+                        <p onClick={() => changeLanguage('en')}> <span className='colorOrange'>#</span> English - US </p>
+                        <p onClick={() => changeLanguage('pt')}>  <span className='colorOrange'>#</span>  Português - BR </p>
                     </div>
+
+
+
                 }
 
                     <Icon.Translate className='iconTranslate' size={25} fill='#FFF'/>
+                    <p className='translateTxt'> Languages | </p>
+
                 </motion.button>
             </div>
         </div>

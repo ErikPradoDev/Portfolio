@@ -21,10 +21,22 @@
             border: none
             background-color: #ffffff00
             transition: .2s
+            position: relative
 
             &:hover
                 cursor: pointer
 
+            &:hover .gitHubTxt
+                left: -65px
+                visibility: visible
+
+            &:hover .linkedInTxt
+                left: -75px
+                visibility: visible
+
+            &:hover .translateTxt
+                left: -90px
+                visibility: visible
 
             &:hover .iconGitHub, &:hover .iconLinkedIn, &:hover .iconTranslate
                 fill: variables.$cOrange
@@ -35,21 +47,71 @@
 
         .btnLink
             position: relative
-        
+            font-family: variables.$font-inter-medium
 
-            .divLingLang
-                display: flex
-                align-items: center
-                position: absolute
-                left: -70px
+        .gitHubTxt
+            position: absolute
+            left: -80px
+            top: 4px
+            transition: .4s
+            visibility: hidden
+        
+        .linkedInTxt
+            position: absolute
+            left: -90px
+            top: 4px
+            transition: .4s
+            visibility: hidden
+
+        .translateTxt
+            position: absolute
+            top: 4px
+            left: -110px
+            transition: .4s
+            visibility: hidden
+
+        .divLingLangSize
+            background-color: variables.$primaryCHover
+            border: 2px solid variables.$cBorder
+            padding: 15px
+            border-radius: 5px
+            position: absolute
+            display: flex
+            gap: 20px
+            left: -265px
+            top: -10px
+            z-index: 99
+            transition: .4s
+
+            p
+                color: variables.$cWhite
+                display: inline-block
+                font-family: variables.$font-inter-medium
+                transition: .4s
+
+                &:hover
+                    color: variables.$cOrange
+
+        .divLingLang
+            background-color: variables.$primaryCHover
+            border: 2px solid variables.$cBorder
+            border-radius: 5px
+            padding: 8px 8px
+            display: flex
+            flex-direction: row
+            align-items: center
+            position: absolute
+            left: -85px
+            top: -10px
+            font-family: variables.$font-inter-medium
+            font-size: 14px
+            z-index: 99
+
+            button
                 font-family: variables.$font-inter-medium
                 font-size: 14px
 
-                button
-                    font-family: variables.$font-inter-medium
-                    font-size: 14px
-                    
-                    &:hover
-                        color: variables.$cOrange
+                &:hover
+                    color: variables.$cOrange
             
                     

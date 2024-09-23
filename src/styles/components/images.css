@@ -4,16 +4,12 @@
     background-position: bottom;
     background-repeat: no-repeat;
 }
-
 .backgroundDesktop:hover{
     background-image: url(../../img/background-desktop-hover.png);
 }
-
-
 .windows:hover .backgroundDesktop{
     background-image: url(../../img/background-desktop-hover.png);
 }
-
 .backgroundLockScreen{
     background-image: url(../../img/background-lockscreen.png);
     background-size: cover;
@@ -21,11 +17,9 @@
     background-repeat: no-repeat;
     transition: .4s;
 }
-
 .backgroundLockScreen:hover{
     background-image: url(../../img/background-lockscreen-hover.png);
 }
-
 .backgroundErroPage{
     background-image: url(../../img/background-errorpage.png);
     background-position: top;
