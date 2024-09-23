@@ -54,25 +54,25 @@ export default function BlogPage() {
 
                     <div className="MarginAuto900px">
                         <motion.p className="txt"
-                            initial={{ opacity: 0 }}
-                            whileInView={{ opacity: 1 }}
-                            transition={{ ease: "easeOut", duration: 2 }}
-                            viewport={{ once: true }}
+                        initial={{ opacity: 0, x: -100 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ ease: "easeOut", duration: 1.5 }}
+                        viewport={{ once: true }}
                         > {t('sectionBlog.mainP1')} </motion.p>
                         <motion.p className="txt"
-                            initial={{ opacity: 0 }}
-                            whileInView={{ opacity: 1 }}
-                            transition={{ ease: "easeOut", duration: 2 }}
-                            viewport={{ once: true }}
+                        initial={{ opacity: 0, x: -100 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ ease: "easeOut", duration: 1.5 }}
+                        viewport={{ once: true }}
                         > {t('sectionBlog.mainP2')} </motion.p>
 
                         <div className="lineBtn marginTop10px">
                             <Link to={'/'}>
                                 <motion.button className='btnFill'
-                                    initial={{ opacity: 0 }}
-                                    whileInView={{ opacity: 1 }}
-                                    transition={{ ease: "easeOut", duration: 2 }}
-                                    viewport={{ once: true }}
+                        initial={{ opacity: 0, x: -100 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ ease: "easeOut", duration: 1.5 }}
+                        viewport={{ once: true }}
                                 > <Icon.CaretLeftFill className='iconBtn' /> {t('sectionWelcome.backHome')} </motion.button>
                             </Link>
                         </div>
