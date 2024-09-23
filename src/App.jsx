@@ -1,7 +1,6 @@
 import './styles/components/app.sass'
 import './styles/components/images.css'
 import Header from './components/Header'
-import Footer from './components/Footer';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -25,7 +24,6 @@ const Dashboard = () =>{
     <div>
       <Header />
       <Outlet />
-      <Footer />
     </div>
     )
 }

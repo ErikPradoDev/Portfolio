@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import '../../i18n/i18nflts';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
+import Footer from "../../components/Footer";
 
 export default function CreativeProcess() {
     const { t, i18n } = useTranslation();
@@ -250,6 +251,8 @@ export default function CreativeProcess() {
                 </motion.section>
 
             </section>
+
+            <Footer />
         </main >
     )
 }

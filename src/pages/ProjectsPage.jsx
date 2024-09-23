@@ -4,6 +4,7 @@ import * as Icon from 'react-bootstrap-icons';
 import '../i18n/i18nflts';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
+import Footer from '../components/Footer';
 
 import '../styles/components/projectPage.sass';
 
@@ -173,7 +174,7 @@ export default function ProjectsPage() {
 
             </motion.section>
 
-
+            <Footer />
         </main>
     )
 }

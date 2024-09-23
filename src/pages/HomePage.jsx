@@ -4,6 +4,7 @@ import * as Icon from 'react-bootstrap-icons';
 import '../i18n/i18nflts';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
+import Footer from '../components/Footer';
 
 
 import '../styles/components/homePage.sass';
@@ -79,7 +80,7 @@ export default function HomePage() {
                             <p className='codeTxt'> {t('sectionInfoNumber.projectsp1')} <br /> {t('sectionInfoNumber.projectsp2')} </p>
                         </div>
                     </Link>
-                    <Link to=''>
+                    <a href='#tech'>
                         <div className='numberInfoSize'
                             initial={{ opacity: 0, x: 100 }}
                             animate={{ opacity: 1, x: 0 }}
@@ -88,14 +89,15 @@ export default function HomePage() {
                             <p className='number'>13</p>
                             <p className='codeTxt'> {t('sectionInfoNumber.techp1')} <br /> {t('sectionInfoNumber.techp2')} </p>
                         </div>
-                    </Link>
+                    </a>
+                   
                     <Link to='/blog'>
                         <div className='numberInfoSize'
                             initial={{ opacity: 0, x: 100 }}
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ ease: "easeOut", duration: 1.5 }}
                         >
-                            <p className='number'>04</p>
+                            <p className='number'>01</p>
                             <p className='codeTxt'> {t('sectionInfoNumber.articlesp1')} <br /> {t('sectionInfoNumber.articlesp2')} </p>
                         </div>
                     </Link>
@@ -435,6 +437,8 @@ export default function HomePage() {
 
                 </div>
             </motion.section>
+
+            <Footer />
         </main>
     )
 }

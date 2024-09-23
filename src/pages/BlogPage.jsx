@@ -4,6 +4,7 @@ import * as Icon from 'react-bootstrap-icons';
 import '../i18n/i18nflts';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
+import Footer from '../components/Footer';
 
 
 import '../styles/components/blogPage.sass';
@@ -103,6 +104,8 @@ export default function BlogPage() {
                     </div>
                 </div>
             </motion.section>
+
+            <Footer />
         </main >
     )
 }
