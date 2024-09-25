@@ -200,3 +200,150 @@ body
     .iconClock
         font-size: 14px
         fill: variables.$cOrange
+
+
+
+.lineBlog
+    display: flex
+    gap: 20px
+    flex-wrap: wrap
+
+    .lineBtn
+        margin-top: 10px
+        
+    
+    .blogCard
+        border: 2px solid variables.$cBorder
+        background-color: variables.$primaryCHover
+        border-radius: 5px
+        width: 100%
+        padding: 10px
+        position: relative
+        transition: .2s
+
+        &:hover
+            cursor: pointer
+            border: 2px solid variables.$cBorder-Hover
+        
+    .imgBlogSize
+        background-color: #2b2b2b
+        width: 40px
+        height: 40px
+        display: flex
+        justify-content: center
+        align-items: center
+        border-radius: 5px
+        position: absolute
+        top: 10px
+        left: 10px
+
+    .titleBlog
+        margin-left: 50px
+        color: variables.$cWhite
+        font-family: variables.$font-inter-medium
+
+    .postBlog
+        font-size: 14px
+        margin-left: 50px
+        margin-top: 4px
+        font-family: variables.$font-inter-regular
+        color: variables.$cTxt
+
+
+    .pTime
+        display: flex
+        align-items: center
+        font-family: variables.$font-inter-regular
+        gap: 5px
+        font-size: 14px
+        color: variables.$cOrange
+        margin-top: 10px
+
+
+
+
+
+@media (max-width: 1120px)
+    header
+        padding: 0px 30px
+
+@media (max-width: 565px)
+    .backHover
+        display: none
+   
+
+@media (max-width: 1050px)
+    #columnToolsSize
+        visibility: hidden
+
+
+@media (max-width: 1280px)
+    .circleDctBottom, .circleDctTop
+        visibility: hidden
+
+    .MarginAuto900px
+        padding: 0px 10px
+
+    .MarginAuto1000px
+        max-width: 1100px
+        margin: 0 auto
+
+    .MarginAuto1100px
+        max-width: 1000px
+        margin: 0 auto
+        padding: 0px 20px
+
+    .container
+        margin: 0px auto
+        padding: 0px 20px
+
+
+@media (min-width: 800px)
+        .sizeTxt
+            width: 50%
+
+        .sizeImg
+            width: 50%
+            display: flex
+            align-items: center
+            justify-content: end
+
+
+
+@media (max-width: 800px)
+    .containerWelcome
+        flex-direction: column-reverse
+        justify-content: center
+        align-items: center
+        gap: 40px
+
+        .sizeTxt
+            width: 100%
+
+        .sizeImg
+            width: 100%
+            display: flex
+            align-items: center
+            justify-content: center
+
+
+
+
+
+
+
+@media (max-width: 580px)
+        .lineBtn
+            flex-direction: column-reverse
+            gap: 10px
+
+            .pTxtReading
+                display: flex
+                justify-content: center
+
+            .btnFill
+                margin: 0 auto
+                display: flex
+                width: 150px
+                align-items: center
+                justify-content: center

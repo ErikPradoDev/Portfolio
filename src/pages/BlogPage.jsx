@@ -67,21 +67,17 @@ export default function BlogPage() {
                 <h2> {t('sectionBlog.title2')} </h2>
                 <div className='lineSection'></div>
 
-                <div className='MarginAuto900px'>
-
+                <div className='lineBlog MarginAuto900px'>
 
                     <Link to='/blog/article-creative-process-in-creating-a-website'>
-                        <div className='blogCardSize'>
+                        <div className='blogCard'>
                             <div className='imgBlogSize'>
                                 <Icon.LightbulbFill className='iconLamp' />
                             </div>
-
                             <p className='titleBlog'> {t('sectionBlog.titleBlog1')} </p>
                             <p className='postBlog'> {t('sectionBlog.dateBlog1')} </p>
                             <div className='lineSection'></div>
-
                             <p className='aboutTxtBlog'> {t('sectionBlog.blog1Resume')} </p>
-
                             <div className='lineBtn'>
                                 <button className='btnFill'> <Icon.FileTextFill className='iconBtn' /> {t('sectionBlog.readArticle')} </button>
                                 <p className='pTxtReading'>  <Icon.ClockFill className='iconClock' /> 5 {t('sectionBlog.timeReading')} </p>
@@ -89,7 +85,7 @@ export default function BlogPage() {
                         </div>
                     </Link>
 
-                    <div className='blogCardSize marginTop'>
+                    <div className='blogCard'>
                         <div className='imgBlogSize'>
                             <Icon.PencilSquare className='iconLamp' />
                         </div>
@@ -98,8 +94,8 @@ export default function BlogPage() {
                         <div className='lineSection'></div>
                         <p className='aboutTxtBlog'> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic fugit maiores aperiam tempore rerum earum? Reprehenderit quibusdam dolor placeat ut quas eligendi atque quisquam. Qui sequi optio unde corrupti quas. </p>
                         <div className='lineBtn'>
-                            <button className='btnFill'> <Icon.FileTextFill className='iconBtn' /> Read Article </button>
-                            <p className='pTxtReading'>  <Icon.ClockFill className='iconClock' /> 5 minutes reading time. </p>
+                            <button className='btnFill'> <Icon.FileTextFill className='iconBtn' /> {t('sectionBlog.readArticle')} </button>
+                            <p className='pTxtReading'>  <Icon.ClockFill className='iconClock' /> 5 {t('sectionBlog.timeReading')} </p>
                         </div>
                     </div>
                 </div>

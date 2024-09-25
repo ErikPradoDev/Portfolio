@@ -86,7 +86,7 @@ export default function HomePage() {
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ ease: "easeOut", duration: 1.5, delay: 0.2 }}
                         >
-                            <p className='number'>13</p>
+                            <p className='number'>14</p>
                             <p className='codeTxt'> {t('sectionInfoNumber.techp1')} <br /> {t('sectionInfoNumber.techp2')} </p>
                         </div>
                     </a>
@@ -246,6 +246,14 @@ export default function HomePage() {
                         </div>
 
                         <div className='cardTec'>
+                        <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 7.75556L8.02174 1L8.3913 1.35556L8.02174 8.46667L9.5 10.2444H18V11.6667L12.4565 17H9.86957L1 7.75556Z" fill="#FF862F" stroke="#FF862F"/>
+<rect x="11" width="7" height="7" fill="#FF862F"/>
+                        </svg>
+                            <p> EmailJS </p>
+                        </div>
+
+                        <div className='cardTec'>
                             <svg width="19" height="19" viewBox="0 0 2500 2500" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_238_183)">
                                     <path d="M2500 0V1250L1875 1875L1250 2500L625 1875L1250 1250L2500 0Z" fill="#59529D" />
@@ -338,6 +346,8 @@ export default function HomePage() {
                     <div className='lineSection'></div>
 
                     <div className='MarginAuto900px'>
+
+                        
                         <Link to={'/projects/windows-desktop-erik-prado'}>
                             <div className='cardProject windows marginBottom20px'>
                                 <div className='cardPhoto backgroundDesktop'>

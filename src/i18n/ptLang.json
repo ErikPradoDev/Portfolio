@@ -154,7 +154,12 @@
         "p2": "Nome completo:",
         "p3": "Endereço de e-mail:",
         "p4": "Assunto:",
-        "p5": "Mensagem:"
+        "p5": "Mensagem:",
+        "btn": "Enviar",
+        "messageSuccess": "Formulário enviado com sucesso!",
+        "placeholderName": "Digite o seu nome completo.",
+        "placeholderEmail": "Digite o seu melhor e-mail.",
+        "placeholderMessage": "Digite a sua mensagem."
     },
     "pageProjectWindows":{
         "LinkGitHub": "Página do Projeto GitHub:",
@@ -178,6 +183,11 @@
         "p6": "A segunda tela de visualização é a réplica do desktop do Windows. Estando fiel  ao posicionamento dos elementos, contendo a área de trabalho com seus respectivos ícones e atalhos, a barra de tarefas com suas informações e o menu iniciar com a opção de abrir e fechar ao clicar.",
         "p7": "O React-Router-Dom nos possibilita criar uma página de erro quase o link do website estiver incorreto. Com essa possibilidade estilizei a página de erro para simular o famoso erro de tela azul do Windows, com opção de retornar para a tela de bloqueio ou para o desktop.",
         "p8": "Vale ressaltar que essa tela só pode ser visualizada caso o link da página tenha algum caractere errado."
+    },
+    "errorPage":{
+        "subtitle": "Página não encontrada.",
+        "p1": "Não encontramos a página que você tentou acessar.",
+        "p2": "Verifique o link ou clqiue no botão abaixo para ser redirecionando para a página principal."
     }
 }
 

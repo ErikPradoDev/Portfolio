@@ -159,7 +159,12 @@
         "p2": "Full name:",
         "p3": "Email address:",
         "p4": "Subject:",
-        "p5": "Message:"
+        "p5": "Message:",
+        "btn": "Submit",
+        "messageSuccess": "Form sent successfully!",
+        "placeholderName": "Type your full name.",
+        "placeholderEmail": "Type your best email.",
+        "placeholderMessage": "Type your message."
     },
     "pageProjectWindows":{
         "LinkGitHub": "GitHub Project Page",
@@ -182,6 +187,11 @@
         "p6": "The second viewing screen is the replica of the Windows desktop. Being faithful to the positioning of the elements, containing the desktop with their respective icons and shortcuts, the taskbar with its information and the start menu with the option to open and close on click.",
         "p7": "React-Router-Dom allows us to create an error page whenever the website link is incorrect. With this possibility, I styled the error page to simulate the famous Windows blue screen error, with the option to return to the lock screen or to the desktop.",
         "p8": "It is worth noting that this screen can only be viewed if the page link contains an incorrect character."
+    },
+    "errorPage":{
+        "subtitle": "Page not found.",
+        "p1": "We couldn't find the page you tried to access.",
+        "p2": "Check the link or click the button below to be redirected to the main page."
     }
 }
 
