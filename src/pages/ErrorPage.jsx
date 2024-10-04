@@ -24,7 +24,8 @@ export default function ErrorPage() {
                     <div className='lineSection'></div>
 
                     <div className="MarginAuto900px">
-                        <svg width="1005" height="200" viewBox="0 0 1058 435" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <div className='svgSize'>
+                        <svg viewBox="0 0 1058 435" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_247_210)">
                                 <path d="M643.457 221.721L705.39 159.977L643.457 98.2331L662.339 79.4141L743.154 159.977L662.339 240.54L643.457 221.721Z" fill="#E6E6E6" />
                                 <path d="M491.771 135.207H466.595V160.383H491.771V135.207Z" fill="#E6E6E6" />
@@ -68,6 +69,8 @@ export default function ErrorPage() {
                                 </clipPath>
                             </defs>
                         </svg>
+                        </div>
+                        
 
 
                         <p className="txt txtCenter p1"> {t('errorPage.p1')} </p>

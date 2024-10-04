@@ -10,9 +10,8 @@ header
         display: flex
         align-items: center
         justify-content: space-between
-        padding: 20px 0px
         font-family: variables.$font-inter-bold
-            
+
         .pLogo
             font-size: 25px
             transition: .2s
@@ -35,13 +34,17 @@ header
 
         nav
             font-size: 15px
+            height: 70px
+            display: flex
+            align-items: center
 
             .colorOrange
                 margin-right: 3px
 
-            ul li
+            ul#menuResponsive01 li
                 display: inline-flex
                 margin-left: 25px
+                padding-top: 3px
 
                 &:hover
                     cursor: pointer
@@ -51,3 +54,133 @@ header
 
                 .itemNav
                     transition: .2s
+
+            button.btnTranslate
+                background-color: variables.$primaryCHover
+                border: none
+                position: relative
+                width: 25px
+                height: 25px
+                border-radius: 5px
+
+                .iconTranslate
+                    fill: variables.$cWhite
+
+                    &:hover
+                        fill: variables.$cOrange
+                        cursor: pointer
+
+            .translateContainerSize
+                padding: 10px
+                border-radius: 5px
+                position: absolute
+                border: 2px solid variables.$cBorder
+                background-color: variables.$primaryCHover
+                bottom: -130px
+                left: -70px
+                display: flex
+                flex-direction: column
+
+                p
+                    color: variables.$cWhite
+                    font-family: variables.$font-inter-medium
+
+                .lineDct
+                    width: 100%
+                    height: 2px
+                    border-radius: 50%
+                    background-color: variables.$cBorder
+                    margin: 10px 0px
+
+                button
+                    width: 130px
+                    color: variables.$cWhite
+                    font-family: variables.$font-inter-medium
+                    background-color: variables.$primaryCHover
+                    border: none
+                    font-size: 13px
+                    display: flex
+                    padding: 5px
+                    border-radius: 5px
+
+                    &:hover
+                        color: variables.$cOrange
+                        cursor: pointer
+
+            button.btnMenu
+                display: none
+                border: 2px solid variables.$cOrange
+                flex-direction: column
+                justify-content: center
+                align-items: center
+                padding: 5px
+                gap: 2px
+                width: 25px
+                height: 25px
+                border-radius: 5px
+                background-color: variables.$primaryCHover
+                margin-left: 15px
+
+                &:hover
+                    cursor: pointer
+                    border: 2px solid variables.$cOrange-Hover
+
+                    .lineSizeBtn
+                        background-color: variables.$cOrange-Hover
+
+                .lineSizeBtn
+                    width: 100%
+                    height: 2px
+                    background-color: variables.$cOrange
+
+                .containerMenu
+                    width: 100%
+                    height: 100vh
+                    background-color: variables.$primaryBG
+                    position: absolute
+                    top: 70px
+                    left: 0
+                    cursor: default
+                    padding: 0px 20px
+
+                    ul#menuResponsive02
+                        width: 100%
+                        margin-top: 100px
+
+                        p
+                            font-family: variables.$font-inter-medium
+                            margin-top: 80px
+                            font-size: 18px
+
+                        .lineDct
+                            width: 100%
+                            height: 2px
+                            border-radius: 50%
+                            background-color: variables.$cBorder
+                            margin: 10px 0px
+
+                        li
+                            width: 100%
+                            padding: 15px 30px
+                            text-align: start
+                            font-size: 20px
+                            border-radius: 5px
+                            border-bottom: 3px solid variables.$primaryBG
+                            font-family: variables.$font-inter-medium
+
+                            &:hover
+                                background-color: variables.$primaryCHover
+                                border-bottom: 3px solid variables.$cOrange
+                                cursor: pointer
+
+                    .btnContainer
+                        width: 100%
+                        display: flex
+                        justify-content: center
+                        left: 0px
+                        position: absolute
+                        bottom: 90px
+
+@media (max-width: 650px)
+    button.btnMenu
+        display: flex

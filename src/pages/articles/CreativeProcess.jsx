@@ -7,30 +7,14 @@ import '../../i18n/i18nflts';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import Footer from "../../components/Footer";
+import Decoration from "../../components/Dcoration";
 
 export default function CreativeProcess() {
     const { t, i18n } = useTranslation();
     return (
         <main>
             <section id="welcome">
-
-                <div className='circleDctBottom'>
-                    <p> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' />  </p>
-                    <p> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' />  </p>
-                    <p> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' />  </p>
-                    <p> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> </p>
-                    <p> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> </p>
-
-                </div>
-
-                <div className='circleDctTop'>
-                    <p> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' />  </p>
-                    <p> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' />  </p>
-                    <p> <Icon.CircleFill className='circleDctSize circleNone' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' />  </p>
-                    <p> <Icon.CircleFill className='circleDctSize circleNone' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> </p>
-                    <p> <Icon.CircleFill className='circleDctSize circleNone' /> <Icon.CircleFill className='circleDctSize circleNone' /> <Icon.CircleFill className='circleDctSize circleNone' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> </p>
-
-                </div>
+                <Decoration />
 
                 <motion.div className="MarginAuto1100px"
                     initial={{ opacity: 0, x: -100 }}

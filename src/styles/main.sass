@@ -22,7 +22,6 @@ body
     font-family: variables.$font-inter-regular
     font-size: 16px
     margin-bottom: 10px
-    text-align: justify
 
 .colorTxt
     fill: variables.$cTxt
@@ -134,31 +133,10 @@ body
     left: 80px
     bottom: 100px
 
-    p
-        line-height: 7px
-        user-select: none
-
-    .circleDctSize
-        font-size: 3px
-        font-weight: 30px
-        fill: #c7700d
-
 .circleDctTop
     position: absolute
     right: 80px
     top: 100px
-
-    p
-        line-height: 7px
-        user-select: none
-
-    .circleDctSize
-        font-size: 3px
-        font-weight: 30px
-        fill: #c7700d
-
-    .circleNone
-        visibility: hidden
 
 .lineTech
     display: inline-flex
@@ -177,6 +155,7 @@ body
 
 .techLine
     display: flex
+    flex-wrap: wrap
     gap: 10px
     margin-top: 10px
 
@@ -259,9 +238,39 @@ body
         color: variables.$cOrange
         margin-top: 10px
 
+.hidden
+    visibility: hidden     
 
 
+@media (max-width: 630px)
+    #menuResponsive01
+        display: none
+    #btnMenu
+        display: flex
 
+@media (min-width: 700px)
+    .sizeTxt
+        width: 50%
+
+    .sizeImg
+        width: 50%
+        justify-content: end
+
+@media (max-width: 700px)
+    .containerWelcome
+        flex-direction: column-reverse
+        gap: 20px
+    .sizeTxt
+        width: 100%
+    .sizeImg
+        justify-content: center
+    .pHi, .p2
+        text-align: center
+    section.center .lineBtn
+        justify-content: center
+    section#welcome
+        padding-top: 130px
+        padding-bottom: 60px
 
 @media (max-width: 1120px)
     header
@@ -270,11 +279,12 @@ body
 @media (max-width: 565px)
     .backHover
         display: none
-   
 
 @media (max-width: 1050px)
     #columnToolsSize
-        visibility: hidden
+        visibility: visible
+    .btnGitHubWelcome, .btnLinkedInWelcome
+        display: block
 
 
 @media (max-width: 1280px)
@@ -298,44 +308,43 @@ body
         padding: 0px 20px
 
 
-@media (min-width: 800px)
-        .sizeTxt
-            width: 50%
-
-        .sizeImg
-            width: 50%
+@media (min-width: 990px)
+    section#projects
+        .titleSizeResponsive
+            display: none
+        .titleSizeResponsiveTwo
             display: flex
-            align-items: center
-            justify-content: end
 
 
-
-@media (max-width: 800px)
-    .containerWelcome
-        flex-direction: column-reverse
-        justify-content: center
-        align-items: center
-        gap: 40px
-
-        .sizeTxt
+@media (max-width: 990px)
+    section#projects
+        .cardProject
+            flex-direction: column
+        .cardPhoto
+            margin: 0 auto
+        .aboutTxt  
             width: 100%
-
-        .sizeImg
-            width: 100%
+        .titleSizeResponsive
             display: flex
-            align-items: center
-            justify-content: center
+        .titleSizeResponsiveTwo
+            display: none
+        .techUsed, .lineBtn
+            margin-top: 20px
+            
 
-
-
-
-
-
+@media (min-width: 580px)
+    section#projects
+        .cardPhotoProject
+            width: 480px
+            margin: 0 auto
+            
 
 @media (max-width: 580px)
+    section#blog
         .lineBtn
             flex-direction: column-reverse
             gap: 10px
+            margin-bottom: 10px
 
             .pTxtReading
                 display: flex
@@ -347,3 +356,7 @@ body
                 width: 150px
                 align-items: center
                 justify-content: center
+
+@media (max-width: 462px)
+    section#numberInfo
+        display: none

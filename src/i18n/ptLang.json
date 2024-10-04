@@ -1,6 +1,8 @@
 {   "header": {
     "txtHover": "| Voltar para Home",
-    "Projects": "Projetos"
+    "Projects": "Projetos",
+    "nav": "Navegação",
+    "lang": "Linguagens"
     },
 
     "footer":{
@@ -145,6 +147,7 @@
         "mainP1": "Olá desenvolvedores, periodicamente eu crio projetos de diversos temas a fim de melhorar minhas técnicas e habilidades. Sempre deixo disponível o código no GitHub e o Deploy para vocês poderem visualizar.",
         "mainP2": "Fique à vontade para visualizar cada projeto, compartilhe com os demais se achar interessate.",
         "new" :"Novo Projeto",
+        "being": "Sendo desenvolvido",
         "tech" : "Tecnologias usadas:"
     },
     "sectionContact":{

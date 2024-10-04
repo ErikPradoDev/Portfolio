@@ -7,6 +7,7 @@ import '../../i18n/i18nflts'
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion';
 import Footer from "../../components/Footer";
+import Decoration from "../../components/Dcoration";
 
 
 export default function WindowsPage() {
@@ -15,24 +16,7 @@ export default function WindowsPage() {
         <>
             <main>
                 <section id="welcome">
-
-                    <div className='circleDctBottom'>
-                        <p> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' />  </p>
-                        <p> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' />  </p>
-                        <p> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' />  </p>
-                        <p> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> </p>
-                        <p> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> </p>
-
-                    </div>
-
-                    <div className='circleDctTop'>
-                        <p> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' />  </p>
-                        <p> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' />  </p>
-                        <p> <Icon.CircleFill className='circleDctSize circleNone' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' />  </p>
-                        <p> <Icon.CircleFill className='circleDctSize circleNone' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> </p>
-                        <p> <Icon.CircleFill className='circleDctSize circleNone' /> <Icon.CircleFill className='circleDctSize circleNone' /> <Icon.CircleFill className='circleDctSize circleNone' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> </p>
-
-                    </div>
+                    <Decoration />
 
                     <motion.div className="MarginAuto1100px"
                         initial={{ opacity: 0, x: -100 }}
@@ -56,9 +40,14 @@ export default function WindowsPage() {
                                 <p> #React Router </p>
                             </div>
 
-                            <div className="linkSizeContainer">
-                                <p> <Icon.Github className="icon" /> | {t('pageProjectWindows.LinkGitHub')} <Link to='https://github.com/ErikPradoDev/Portfolio' target="_blank" className="href" >https://github.com/ErikPradoDev/Portfolio</Link> </p>
-                                <p> <Icon.Linkedin className="icon" /> | {t('pageProjectWindows.LinkLinkedIn')} <Link to='https://www.linkedin.com/in/erikpradodev/' target="_blank" className="href">https://www.linkedin.com/in/erikpradodev/</Link> </p>
+                            <div className='center lineBtn'>
+                                <Link to="https://github.com/ErikPradoDev/Windows-Desktop-Erik-Prado" target='_blank'>
+                                    <button className='btnFill'> <Icon.Github className='iconGitHub' size={20} fill='#18171d' /> GitHub  </button>
+                                </Link>
+                                <Link to="https://windows-desktop-erik-prado.vercel.app/" target='_blank'>
+                                    <button className='btnSimple'> <Icon.BoxArrowInUpRight className='iconBtn' /> Deploy </button>
+                                </Link>
+
                             </div>
                         </div>
                     </motion.div>

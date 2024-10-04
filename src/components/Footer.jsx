@@ -9,7 +9,7 @@ import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
+import Decoration from "./Dcoration";
 
 
 
@@ -52,23 +52,7 @@ export default function Footer() {
     return (
         <>
             <section id='contact'>
-                <div className='circleDctBottom'>
-                    <p> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' />  </p>
-                    <p> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' />  </p>
-                    <p> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' />  </p>
-                    <p> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> </p>
-                    <p> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> </p>
-
-                </div>
-
-                <div className='circleDctTop'>
-                    <p> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' />  </p>
-                    <p> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' />  </p>
-                    <p> <Icon.CircleFill className='circleDctSize circleNone' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' />  </p>
-                    <p> <Icon.CircleFill className='circleDctSize circleNone' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> </p>
-                    <p> <Icon.CircleFill className='circleDctSize circleNone' /> <Icon.CircleFill className='circleDctSize circleNone' /> <Icon.CircleFill className='circleDctSize circleNone' /> <Icon.CircleFill className='circleDctSize' /> <Icon.CircleFill className='circleDctSize' /> </p>
-
-                </div>
+            <Decoration />
 
                 <motion.div className="MarginAuto1100px flex"
                     initial={{ opacity: 0, x: -100 }}
@@ -141,6 +125,24 @@ export default function Footer() {
                     transition={{ ease: "easeOut", duration: 1.5 }}
                     viewport={{ once: true }}
                 > {t('footer.madeWith')} <Icon.HeartFill className="iconHeart" /> {t('footer.by')} <span>Erik Prado</span>.</motion.p>
+                
+            <motion.div className="socialMidias"
+                initial={{ opacity: 0, x: -100 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ ease: "easeOut", duration: 1.5 }}
+                viewport={{ once: true }}
+            >
+            <Link to="https://github.com/ErikPradoDev" target='_blank'>
+                <p> <Icon.Github className='iconFooter' size={20} fill='#F87E00'/> | GitHub  </p>
+            </Link>
+
+            <Link to="https://www.linkedin.com/in/erikpradodev/" target='_blank'>     
+                <p> <Icon.Linkedin className='iconFooter' size={20} fill='#F87E00'/> | LinkedIn</p>
+            </Link>
+            </motion.div>
+                
+                
+
             </footer>
 
         </>
