@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
-import '../styles/components/header.sass'
 import '../i18n/i18nflts';
 import { useTranslation } from 'react-i18next';
 import * as Icon from 'react-bootstrap-icons';
 import '../styles/main.sass'
 import { motion } from 'framer-motion';
+import './HeaderModule.sass'
 
 
 

@@ -1,13 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import * as Icon from 'react-bootstrap-icons';
-import '../i18n/i18nflts';
+import '../../i18n/i18nflts';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-import Footer from '../components/Footer';
-import Decoration from '../components/Dcoration';
-
-import '../styles/components/blogPage.sass';
+import Footer from '../../components/Footer';
+import Decoration from '../../components/Decoration';
+import './BlogPageModule.sass'
 
 export default function BlogPage() {
     const { t, i18n } = useTranslation();

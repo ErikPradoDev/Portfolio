@@ -1,7 +1,6 @@
 import React, {useRef} from "react";
 import {useState} from "react";
 import * as Icon from 'react-bootstrap-icons';
-import '../styles/components/footer.sass'
 import '../i18n/i18nflts'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom';
@@ -9,7 +8,9 @@ import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Decoration from "./Dcoration";
+import Decoration from "./Decoration";
+
+import './FooterModule.sass'
 
 
 

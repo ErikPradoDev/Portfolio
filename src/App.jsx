@@ -1,5 +1,4 @@
-import './styles/components/app.sass'
-import './styles/components/images.css'
+import './styles/images.css'
 import Header from './components/Header'
 import {
   createBrowserRouter,
@@ -9,16 +8,13 @@ import {
   Link,
 } from "react-router-dom";
 
-import HomePage from './pages/HomePage'
-import ProjectsPage from './pages/ProjectsPage'
-import BlogPage from './pages/BlogPage'
-import ErrorPage from './pages/ErrorPage'
-import WindowsPage from './pages/projects/windowsPage';
-import CreativeProcess from './pages/articles/CreativeProcess';
-
-
-
-
+import HomePage from './pages/PageHome/HomePage'
+import ProjectsPage from './pages/PageProjects/ProjectsPage'
+import BlogPage from './pages/PageBlog/BlogPage'
+import ErrorPage from './pages/PageError/ErrorPage'
+import WindowsPage from './pages/PageProjects/projects/windowsPage/windowsPage';
+import CreativeProcess from './pages/PageBlog/articles/CreativeProcess';
+import McDonaldsPage from './pages/PageProjects/projects/mcDonalds/mcDonaldsPage';
 
 const Dashboard = () =>{
     return(
@@ -71,6 +67,16 @@ const router = createBrowserRouter([
   ]
   },
   {
+    path: "/projects/mcdonalds-website-redesign",
+    element: <Dashboard />,
+    children: [
+    {
+      path: "/projects/mcdonalds-website-redesign",
+      element: <McDonaldsPage />,
+    },
+  ]
+  },
+  {
     path: "/blog/article-creative-process-in-creating-a-website",
     element: <Dashboard />,
     children: [
@@ -92,14 +98,10 @@ const router = createBrowserRouter([
   },
 ])
 
-function App() {
-
+export default function App() {
   return (
       <div>
         <RouterProvider router={router} />
-
       </div>
   )
 }
-
-export default App

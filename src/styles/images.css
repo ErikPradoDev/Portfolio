@@ -1,0 +1,68 @@
+.backgroundDesktop{
+    background-image: url(../img/background-desktop.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.backgroundDesktop:hover{
+    background-image: url(../img/background-desktop-hover.png);
+}
+
+.windows:hover .backgroundDesktop{
+    background-image: url(../img/background-desktop-hover.png);
+}
+.backgroundLockScreen{
+    background-image: url(../img/background-lockscreen.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    transition: .4s;
+}
+.backgroundLockScreen:hover{
+    background-image: url(../img/background-lockscreen-hover.png);
+}
+.backgroundErroPage{
+    background-image: url(../img/background-errorpage.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.erikprado{
+    background-image: url(../img/erikPradoPic.png);
+    background-position: center;
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+
+.welcomeMc{
+    background-image: url(../img/mc-welcome.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.mc:hover .welcomeMc{
+    background-image: url(../img/mc-background.png);
+}
+
+.mc2{
+    background-image: url(../img/mc-2.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.mc3{
+    background-image: url(../img/mc-background.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.mc4{
+    background-image: url(../img/mc-4.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+

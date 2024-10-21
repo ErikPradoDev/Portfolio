@@ -1,19 +1,17 @@
 import React from "react";
-import '../../styles/components/projects/windowsPage.sass';
 import * as Icon from 'react-bootstrap-icons';
-import '../../styles/components/images.css';
 import { Link } from 'react-router-dom';
-import '../../i18n/i18nflts'
+import '../../../../i18n/i18nflts';
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion';
-import Footer from "../../components/Footer";
-import Decoration from "../../components/Dcoration";
+import Footer from "../../../../components/Footer";
+import Decoration from "../../../../components/Decoration";
+import './WindowsPageModule.sass';
 
 
 export default function WindowsPage() {
     const { t, i18n } = useTranslation();
     return (
-        <>
             <main>
                 <section id="welcome">
                     <Decoration />
@@ -54,7 +52,6 @@ export default function WindowsPage() {
                 </section>
 
                 <section id="articleWindows" className="MarginAuto900px">
-
                     <motion.section id="text"
                         initial={{ opacity: 0, x: -100 }}
                         whileInView={{ opacity: 1, x: 0 }}
@@ -121,7 +118,5 @@ export default function WindowsPage() {
 
                 <Footer />
             </main>
-
-        </>
     )
 }

@@ -153,7 +153,8 @@
         "mainP2": "Feel free to view each project, share with others if you find it interesting.",
         "new" :"New Project",
         "being": "Being developed",
-        "tech" : "Technologies used:"
+        "tech" : "Technologies used:",
+        "info": "Information"
     },
     "sectionContact":{
         "subtitle": "../contact",
@@ -190,6 +191,26 @@
         "p6": "The second viewing screen is the replica of the Windows desktop. Being faithful to the positioning of the elements, containing the desktop with their respective icons and shortcuts, the taskbar with its information and the start menu with the option to open and close on click.",
         "p7": "React-Router-Dom allows us to create an error page whenever the website link is incorrect. With this possibility, I styled the error page to simulate the famous Windows blue screen error, with the option to return to the lock screen or to the desktop.",
         "p8": "It is worth noting that this screen can only be viewed if the page link contains an incorrect character."
+    },
+    "pageProjectMcDonalds":{
+        "pResume": "As modernization arrives, the “dark” concept is increasingly present in companies on the market, with this in mind I thought about what the McDonalds website would look like with a modern, minimalist and functional aesthetic.",
+        
+        "pFSection": "First section:",
+        "pSSection": "Second section:",
+        "pTSection": "Third section:",
+        "pQSection": "Fourth screen:",
+
+        "pFSectionTxt": "Main Banner.",
+        "pSSectionTxt": "McNews.",
+        "pTSectionTxt": "McArticles.",
+        "pQSectionTxt": "Footer.",
+
+        "p1": "“McDonalds Website Redesign” is a simple personal project created with React technology. Having only a single page, divided between four sections containing your unique information.",
+        "p2": "The project contains a responsive part for different device sizes. All buttons are for illustration purposes only, I did not add any functions as this is a visual study.",
+        "p3": "Being the first content viewed when entering the website. I added a banner showing a meal delivery tool. Which makes it extremely useful for new users to discover restaurant tools.",
+        "p4": "During this section, the user will be able to view all the restaurant's new features, including four cards, two new snacks and two new desserts. The main idea was to transmit something new so that the user could better view it through the cell phone application.",
+        "p5": "In this section the user can view the restaurant's articles. Articles are essential for users to read and learn more about the business itself. The main idea was to promote a classic product and a local restaurant.",
+        "p6": "The last section is the footer, containing all additional information for the website, such as application download disclosure, topics, privacy, terms and conditions and copyright."
     },
     "errorPage":{
         "subtitle": "Page not found.",

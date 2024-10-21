@@ -148,7 +148,8 @@
         "mainP2": "Fique à vontade para visualizar cada projeto, compartilhe com os demais se achar interessate.",
         "new" :"Novo Projeto",
         "being": "Sendo desenvolvido",
-        "tech" : "Tecnologias usadas:"
+        "tech" : "Tecnologias usadas:",
+        "info": "Informação"
     },
     "sectionContact":{
         "subtitle": "../contato",
@@ -186,6 +187,26 @@
         "p6": "A segunda tela de visualização é a réplica do desktop do Windows. Estando fiel  ao posicionamento dos elementos, contendo a área de trabalho com seus respectivos ícones e atalhos, a barra de tarefas com suas informações e o menu iniciar com a opção de abrir e fechar ao clicar.",
         "p7": "O React-Router-Dom nos possibilita criar uma página de erro quase o link do website estiver incorreto. Com essa possibilidade estilizei a página de erro para simular o famoso erro de tela azul do Windows, com opção de retornar para a tela de bloqueio ou para o desktop.",
         "p8": "Vale ressaltar que essa tela só pode ser visualizada caso o link da página tenha algum caractere errado."
+    },
+    "pageProjectMcDonalds":{
+        "pResume": "Conforme a modernização chega, o conceito “dark” está cada vez mais presentes nas empresas do mercado, com isso em mente pensei em como ficaria o WebSite do McDonalds com a estética moderna, minimalista e funcional.",
+        
+        "pFSection": "Primeira seção:",
+        "pSSection": "Segunda seção:",
+        "pTSection": "Terceira seção:",
+        "pQSection": "Quarta seção:",
+
+        "pFSectionTxt": "Banner Principal.",
+        "pSSectionTxt": "McNovidades.",
+        "pTSectionTxt": "McArtigos.",
+        "pQSectionTxt": "Rodapé.",
+
+        "p1": "“McDonalds Website Redesign” é um projeto pessoal simples e criado com a tecnologia do React. Possuindo apenas uma única página, dividindo entre quatro seções contendo suas informações únicas. ",
+        "p2": "O projeto contém parte responsiva para diversos tamanhos de dispositivos. Todos os botões são meramente ilustrativos, não adicionei nenhuma função por se tratar de um estudo visual. ",
+        "p3": "Sendo o primeiro conteúdo visualizado ao entrar no site. Adicionei um banner mostrando uma ferramenta para entrega de refeições. O que torna extremamente útil para novos usuários descobrirem as ferramentas do restaurante. ",
+        "p4": "Durante essa seção o usuário poderá visualizar todas as novidades do restaurante, possuindo quatro cards, duas novidades de lanches e duas novidades de sobremesa. A ideia principal foi transmitir uma novidade para o usuário conseguir visualizar melhor pelo aplicativo celular.",
+        "p5": "Nessa seção o usuário poderá visualizar os artigos do restaurante. Os artigos são essenciais para que os usuários possam ler e conhecer melhor sobre o negócio em si. A ideia principal foi divulgar um produto clássico e um restaurante local. ",
+        "p6": "A última seção é o do rodapé, contendo todas as informações adicionais para o site, como a divulgação do download do aplicativo, tópicos, privacidade, termos e condições e copyright."
     },
     "errorPage":{
         "subtitle": "Página não encontrada.",

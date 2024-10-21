@@ -2,11 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import * as Icon from 'react-bootstrap-icons';
 import { motion } from 'framer-motion';
-import '../i18n/i18nflts';
+import '../../i18n/i18nflts';
 import { useTranslation } from 'react-i18next';
-import Footer from '../components/Footer';
+import Footer from '../../components/Footer';
 
-import '../styles/components/errorPage.sass';
+import './ErrorpageModule.sass'
 
 export default function ErrorPage() {
     const { t, i18n } = useTranslation();

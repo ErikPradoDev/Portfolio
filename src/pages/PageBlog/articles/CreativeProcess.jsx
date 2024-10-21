@@ -1,13 +1,11 @@
 import React from "react";
-import '../../styles/components/articles/creativeProcess.sass';
 import * as Icon from 'react-bootstrap-icons';
-import '../../styles/components/images.css';
-import { Link } from 'react-router-dom';
-import '../../i18n/i18nflts';
+import '../../../i18n/i18nflts';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-import Footer from "../../components/Footer";
-import Decoration from "../../components/Dcoration";
+import Footer from "../../../components/Footer";
+import Decoration from "../../../components/Decoration";
+import './CreativeProcessModule.sass'
 
 export default function CreativeProcess() {
     const { t, i18n } = useTranslation();
