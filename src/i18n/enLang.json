@@ -211,11 +211,6 @@
         "p4": "During this section, the user will be able to view all the restaurant's new features, including four cards, two new snacks and two new desserts. The main idea was to transmit something new so that the user could better view it through the cell phone application.",
         "p5": "In this section the user can view the restaurant's articles. Articles are essential for users to read and learn more about the business itself. The main idea was to promote a classic product and a local restaurant.",
         "p6": "The last section is the footer, containing all additional information for the website, such as application download disclosure, topics, privacy, terms and conditions and copyright."
-    },
-    "errorPage":{
-        "subtitle": "Page not found.",
-        "p1": "We couldn't find the page you tried to access.",
-        "p2": "Check the link or click the button below to be redirected to the main page."
     }
 }
 

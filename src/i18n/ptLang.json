@@ -207,11 +207,6 @@
         "p4": "Durante essa seção o usuário poderá visualizar todas as novidades do restaurante, possuindo quatro cards, duas novidades de lanches e duas novidades de sobremesa. A ideia principal foi transmitir uma novidade para o usuário conseguir visualizar melhor pelo aplicativo celular.",
         "p5": "Nessa seção o usuário poderá visualizar os artigos do restaurante. Os artigos são essenciais para que os usuários possam ler e conhecer melhor sobre o negócio em si. A ideia principal foi divulgar um produto clássico e um restaurante local. ",
         "p6": "A última seção é o do rodapé, contendo todas as informações adicionais para o site, como a divulgação do download do aplicativo, tópicos, privacidade, termos e condições e copyright."
-    },
-    "errorPage":{
-        "subtitle": "Página não encontrada.",
-        "p1": "Não encontramos a página que você tentou acessar.",
-        "p2": "Verifique o link ou clqiue no botão abaixo para ser redirecionando para a página principal."
     }
 }
 

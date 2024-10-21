@@ -11,7 +11,6 @@ import {
 import HomePage from './pages/PageHome/HomePage'
 import ProjectsPage from './pages/PageProjects/ProjectsPage'
 import BlogPage from './pages/PageBlog/BlogPage'
-import ErrorPage from './pages/PageError/ErrorPage'
 import WindowsPage from './pages/PageProjects/projects/windowsPage/windowsPage';
 import CreativeProcess from './pages/PageBlog/articles/CreativeProcess';
 import McDonaldsPage from './pages/PageProjects/projects/mcDonalds/McDonaldsPage';
@@ -85,17 +84,7 @@ const router = createBrowserRouter([
       element: <CreativeProcess />,
     },
   ]
-  },
-  {
-    path: "*",
-    element: <Dashboard />,
-    children: [
-    {
-      path: "*",
-      element: <ErrorPage />,
-    },
-  ]
-  },
+  }
 ])
 
 export default function App() {
