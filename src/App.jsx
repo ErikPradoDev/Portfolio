@@ -14,7 +14,7 @@ import BlogPage from './pages/PageBlog/BlogPage'
 import ErrorPage from './pages/PageError/ErrorPage'
 import WindowsPage from './pages/PageProjects/projects/windowsPage/windowsPage';
 import CreativeProcess from './pages/PageBlog/articles/CreativeProcess';
-import McDonaldsPage from './pages/PageProjects/projects/mcDonalds/mcDonaldsPage';
+import McDonaldsPage from './pages/PageProjects/projects/mcDonalds/McDonaldsPage';
 
 const Dashboard = () =>{
     return(
